@@ -40,6 +40,14 @@
 \usepackage{amsfonts}
 \usepackage{bbm}
 
+\usepackage{pst-plot} 
+%\usepackage{pst-tree}
+\usepackage{pstricks}
+\usepackage{pst-3d}
+\usepackage{pstricks, egameps, sgamevar}
+\usepackage{pst-3d}
+%\usepackage{pst-pdf}
+
 %\usefonttheme{serif}
 
 \setbeamersize{text margin left=5mm,text margin right=10mm} 
@@ -213,7 +221,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../template/uk_logo2.jpg
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/template/uk_logo2.jpg
 	scale 20
 
 \end_inset
@@ -239,9 +247,24 @@ University of Kentucky
 \begin_layout Standard
 \align center
 January 12, 2020
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+NOTE: TO GENERATE GRAPHS MUST VIEW WITH PS2PDF (FOUR PLACES TO RIGHT OF
+ NORMAL VIEW BUTTON).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -372,7 +395,7 @@ Cocoa spot price
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -425,20 +448,75 @@ Hershey's unhedged exposure
 \begin_deeper
 \begin_layout Standard
 \align center
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename hershey_profit.PNG
-	scale 45
-
-\end_inset
 
 
+\backslash
+psset{unit=.6mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,-40)(0,60) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,0)(115,0) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput{90}(-10,0){ chocolate profit $
+\backslash
+to$ }  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(80,-6){ price of cocoa $
+\backslash
+to$}  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{0
+}{75}{-x+35} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
 \end_layout
 
 \end_inset
@@ -481,20 +559,75 @@ Cocoa producer's unhedged exposure
 \begin_deeper
 \begin_layout Standard
 \align center
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename cocoa_profit.PNG
-	scale 45
-
-\end_inset
 
 
+\backslash
+psset{unit=.6mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,-40)(0,60) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,0)(115,0) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput{90}(-10,0){ cocoa profit $
+\backslash
+to$ }  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(80,-6){ price of cocoa $
+\backslash
+to$}  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
+0}{55}{x} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
 \end_layout
 
 \end_inset
@@ -522,7 +655,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Opposite wants in risk create demand for forward contract
+Opposite exposures create demand for forward contracts
 \end_layout
 
 \end_inset
@@ -537,20 +670,98 @@ Opposite wants in risk create demand for forward contract
 \begin_deeper
 \begin_layout Standard
 \align center
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename surplus.PNG
-	scale 45
-
-\end_inset
 
 
+\backslash
+psset{unit=.6mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,-40)(0,60) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,0)(115,0) 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput{90}(-10,0){ cocoa profit $
+\backslash
+to$ }  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(80,-6){ price of cocoa $
+\backslash
+to$}  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{0
+}{55}{-x+35} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
+0}{55}{x} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1pt,linestyle=dotted,
+linecolor=gray]{0}{80}{35}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(80,38.5){ certain surplus}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
 \end_layout
 
 \end_inset
@@ -560,8 +771,9 @@ status open
 status open
 
 \begin_layout Plain Layout
-To split this surplus, the cocoa producer and Hershey can agree to fix a
- price today.
+Arises in equilibrium because supply and demand is naturally present.
+ It is just at what price? To split this surplus, the cocoa producer and
+ Hershey can agree to fix a price today.
  This will fully insure them against cocoa price risk (Long risk transferred
  from producer to Hershey.
  Short risk is transferred from Hershey to producer.).
@@ -897,6 +1109,218 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psset{unit=.6mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% FIGURECOORDINATES(X1,Y1)(X2,Y2)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-25)(140,25)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% LINE
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=2pt,linecolor=blue](10,0)(110,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% TIME LABELS
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,20){ origination }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,20){ expiration } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,0){ $t$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,0){ $T$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Forward contracts (sort of)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/fwd_prices_in_action.PNG
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.bloomberg.com/markets/commodities
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Forward contracts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 A forward contract has two counterpaties:
 \end_layout
@@ -922,7 +1346,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-– 
+–
 \end_layout
 
 \end_inset
@@ -950,7 +1374,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-– 
+–
 \end_layout
 
 \end_inset
@@ -997,7 +1421,7 @@ Typically, no money is exchanged when the contract is initiated.
 status open
 
 \begin_layout Plain Layout
-Forward contract timeline
+Forward contracts (sort of)
 \end_layout
 
 \end_inset
@@ -1015,17 +1439,27 @@ Forward contract timeline
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename timeline1.PNG
-	scale 70
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/fwd_prices_in_action.PNG
+	scale 60
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.bloomberg.com/markets/commodities
 \end_layout
 
 \end_inset
@@ -1276,7 +1710,232 @@ status open
 status open
 
 \begin_layout Plain Layout
-Forward contract timeline
+Timeline
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psset{unit=.6mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% FIGURECOORDINATES(X1,Y1)(X2,Y2)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% LINE
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=2pt,linecolor=blue](10,20)(110,20)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% TIME LABELS
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,40){ 
+\backslash
+underline{origination} }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,40){ 
+\backslash
+underline{expiration} } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,20){ $t$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,20){ $T$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% PRICE LABELS
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,0){ $
+\backslash
+bullet$ $S_{t}$ spot.
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,-10){ $
+\backslash
+bullet$ $F_{t,T}$ set.
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(7.5,-20){ $
+\backslash
+bullet$ $
+\backslash
+$0$ exchanged.
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(110,0){ $
+\backslash
+bullet$ $S_{t}$ spot.
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(116.5,-10){ $
+\backslash
+bullet$ $X_{T} = S_{T} - F_{t,T}$ to long.
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,-20){ $
+\backslash
+bullet$ $-X_{T} = F_{t,T}-S_{T}$ to short.
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Timeline
 \end_layout
 
 \end_inset
@@ -1294,12 +1953,12 @@ Forward contract timeline
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename timeline2.PNG
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/timeline2.PNG
 	scale 70
 
 \end_inset
@@ -1487,6 +2146,37 @@ Practice problem #1 solutions
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #1 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_deeper
 \begin_layout Itemize
 \begin_inset Argument item:1
@@ -1523,8 +2213,13 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1550,8 +2245,39 @@ Practice problem #1 solutions
 
 \end_layout
 
-\begin_deeper
 \begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #1 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
 \align center
 \begin_inset Note Note
 status open
@@ -1578,12 +2304,12 @@ The minimum payoff to the long party is
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/code/lecture_2/pp1a.pdf
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/pp1a.pdf
 	scale 45
 
 \end_inset
@@ -1597,8 +2323,13 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1624,11 +2355,42 @@ Practice problem #1 solutions
 
 \end_layout
 
-\begin_deeper
 \begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #1 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
 \align center
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Itemize
 If 
@@ -1653,12 +2415,12 @@ If
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/code/lecture_2/pp1b.pdf
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/pp1b.pdf
 	scale 45
 
 \end_inset
@@ -1672,60 +2434,13 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
 \begin_layout Plain Layout
-Practice problem #1 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/code/lecture_2/pp1c.pdf
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1875,7 +2590,7 @@ Application of forwards
 status open
 
 \begin_layout Plain Layout
-Application of forwards
+Forward contract insures both parties
 \end_layout
 
 \end_inset
@@ -1885,20 +2600,7 @@ Application of forwards
 
 \begin_deeper
 \begin_layout Itemize
-Two applications: Risk management and speculation.
-\end_layout
-
-\begin_layout Itemize
-Risk management give the example.
-\end_layout
-
-\begin_layout Itemize
-Speculation is because of the lvereage.
-\end_layout
-
-\begin_layout Itemize
-In our previous example, Hershey uses cocoa as an input in production.
- Hence, it has a natural short position in cocoa.
+Hershey has a natural short position in cocoa.
 \end_layout
 
 \begin_layout Itemize
@@ -1915,7 +2617,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-On the other hand, farmers output cocoa and have natural long positions.
+Cocoa producer has a natural long position in cocoa.
 \end_layout
 
 \begin_layout Itemize
@@ -1932,10 +2634,675 @@ status open
 \end_layout
 
 \begin_layout Itemize
-A forward contract can be used to transfer risks between Hershey and cocoa
- farmers and capture certain surplus.
+Forward contract insures both parties against cocoa price risk.
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Risk sharing reduces profit volatility for both parties.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Hershey's hedged exposure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+psset{unit=.6mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% GRAPH1
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(15,40){ original exposure}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,-20)(0,30)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,0)(35,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{0
+}{35}{-x+20}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% GRAPH2
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(42.5,40){+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(67.5,40){ long forward }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](50,-20)(50,30)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](50,0)(85,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
+50}{85}{x - 50 - 10}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% GRAPH3
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(92.5,40){ = }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,40){ hedged position }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](100,-20)(100,30)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](100,0)(135,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=violet
+]{100}{135}{10}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput{90}(-10,0){ chocolate profit $
+\backslash
+to$ } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(10,-40){ price of cocoa $
+\backslash
+to$} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% FWD VERTICAL
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=.6pt,linestyle=dotted,linecolor=gray](60,-25)(60,20)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(60,-30){$F_t(T)$} % right of the baseline at (50,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cocoa producer's hedged exposure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+psset{unit=.6mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% GRAPH1
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(15,40){ original exposure}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,-20)(0,30)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](0,0)(35,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
+0}{30}{x}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% GRAPH2
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(42.5,40){+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(67.5,40){ short forward }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](50,-20)(50,30)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](50,0)(85,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{5
+0}{78}{-x + 50 + 10}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% GRAPH3
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(92.5,40){ = }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,40){ hedged position }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](100,-20)(100,30)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=1pt,linecolor=black](100,0)(135,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=violet
+]{100}{135}{10}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput{90}(-10,0){ cocoa profit $
+\backslash
+to$ } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(10,-40){ price of cocoa $
+\backslash
+to$} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% FWD VERTICAL
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=.6pt,linestyle=dotted,linecolor=gray](60,-25)(60,20)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(60,-30){$F_t(T)$} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(145,10){$F_t(T)$}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ A farmer is planning to grow 
+\begin_inset Formula $1,000$
+\end_inset
+
+ metric tons of cocoa over the next year.
+ The farmer plans to sell the crop precisely one year from today.
+ The cost of producing cocoa is 
+\begin_inset Formula $\$2,300$
+\end_inset
+
+ per metric ton payable one year from today.
+ Answer the following questions:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Is the farmer long or short cocoa? Graph the farmer's profit per ton as
+ a function of cocoa prices in one year.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ The one-year forward price for cocoa is 
+\begin_inset Formula $\$2,600$
+\end_inset
+
+ per metric ton.
+ How can the farmer hedge her exposure using forward contracts? Graph the
+ payoff per metric ton of the forward contract as a function of cocoa prices
+ in one year.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Suppose the farmer hedges her entire production using forward contracts.
+ What is her profit per ton if the spot price in one year is 
+\begin_inset Formula $\$2,000$
+\end_inset
+
+? 
+\begin_inset Formula $\$2,600?$
+\end_inset
+
+ 
+\begin_inset Formula $\$2,900?$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2160,7 +3527,7 @@ If
 \begin_inset Formula 
 \[
 B_{t}=\begin{cases}
-\frac{B_{T}}{(1+r)^{-(T-t)}} & \text{if }r\text{ is discretely compounded}\\
+\frac{B_{T}}{(1+r)^{T-t}} & \text{if }r\text{ is discretely compounded}\\
 \\
 B_{T}e^{-r(T-t)} & \text{if }r\text{ is continuously compounded}
 \end{cases}
@@ -2210,7 +3577,11 @@ status open
 
 \end_inset
 
- Suppose 
+ Suppose the 
+\bar under
+discretely compounded
+\bar default
+ risk-free rate is 
 \begin_inset Formula $r=0.05$
 \end_inset
 
@@ -2219,9 +3590,7 @@ status open
 \end_inset
 
 .
- Compute the prices of the following securities assuming 
-\bar under
-discrete compounding:
+ Compute the prices of the following:
 \end_layout
 
 \begin_deeper
@@ -2341,6 +3710,37 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #3 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Separator parbreak
 \end_inset
 
@@ -2439,8 +3839,13 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -2477,7 +3882,11 @@ status open
 
 \end_inset
 
- Suppose 
+ Suppose the 
+\bar under
+continuously compounded
+\bar default
+ risk-free rate is 
 \begin_inset Formula $r=0.05$
 \end_inset
 
@@ -2486,9 +3895,7 @@ status open
 \end_inset
 
 .
- Compute the prices of the following securities assuming 
-\bar under
-continuous compounding:
+ Compute the prices of the following:
 \end_layout
 
 \begin_deeper
@@ -2619,7 +4026,38 @@ status open
 status open
 
 \begin_layout Plain Layout
-Practice problem #3 solutions
+Practice problem #4 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #4 solutions
 \end_layout
 
 \end_inset
@@ -2706,8 +4144,13 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -2978,7 +4421,7 @@ Date
 \begin_inset Formula $0$
 \end_inset
 
- price risk-free 
+ price of risk-free 
 \begin_inset Formula $\$1$
 \end_inset
 
@@ -3074,7 +4517,16 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Cocoa prices are from Bloomberg screen XXX.
+Commodity prices from Bloomberg terminal and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Bloomberg"
+target "https://www.bloomberg.com/markets/commodities"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -3091,7 +4543,16 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Graphs are created using code on my Github.
+Graphs are created using code on my 
+\begin_inset CommandInset href
+LatexCommand href
+name "Github"
+target "https://github.com/davidsovich/derivatives"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
