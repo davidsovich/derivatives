@@ -1405,6 +1405,16 @@ status open
 \end_inset
 
  The buyer (long) is obligated to pay the forward price.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+She profits if prices rise between now and the future.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -1433,6 +1443,16 @@ status open
 \end_inset
 
  The seller (short) is obligated to sell at the forward price.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+She profits if prices fall between now and the future.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1452,6 +1472,17 @@ status open
 \begin_layout Itemize
 Typically, no money is exchanged when the contract is initiated.
  Contracts are usually cash-settled on the expiration date.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+It is a fair trade between consenting parties.
+ Not physically settled.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1512,7 +1543,9 @@ status open
 status open
 
 \begin_layout Plain Layout
-https://www.bloomberg.com/markets/commodities
+Price is for quoted units.
+ Note the contract expiration.
+ https://www.bloomberg.com/markets/commodities
 \end_layout
 
 \end_inset
@@ -1590,11 +1623,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-The payoff, 
-\begin_inset Formula $X_{T}$
-\end_inset
-
-, to a long forward contract is: 
+The payoff to a long forward contract is: 
 \begin_inset Formula 
 \[
 X_{T}=S_{T}-F_{t,T}
@@ -2017,7 +2046,7 @@ The spot price of cocoa today is
 \end_inset
 
 .
- A buyer and seller agree to enter a forward for one ton of cocoa.
+ A buyer and seller agree to enter a forward contract for one ton of cocoa.
 \end_layout
 
 \begin_deeper
@@ -2044,12 +2073,12 @@ status open
 
 \end_inset
 
- If the spot price of cocoa in one year is 
+ If the spot price in one year is 
 \begin_inset Formula $S_{1}=\$2,600$
 \end_inset
 
-, then what is the payoff to the long party? The short party? How much money
- is exchanged on the origination date?
+, what is the payoff to the long party? The short party? How much money
+ is exchanged at origination?
 \end_layout
 
 \begin_layout Itemize
@@ -3186,17 +3215,17 @@ status open
 \end_inset
 
  A farmer is planning to grow 
-\begin_inset Formula $1,000$
+\begin_inset Formula $1$
 \end_inset
 
- metric tons of cocoa over the next year.
+ metric ton of cocoa.
  The farmer plans to sell the crop precisely one year from today.
  The cost of producing cocoa is 
 \begin_inset Formula $\$2,300$
 \end_inset
 
- per metric ton payable one year from today.
- Answer the following questions:
+ per metric ton.
+ Answer the following:
 \end_layout
 
 \begin_deeper
@@ -3223,8 +3252,8 @@ status open
 
 \end_inset
 
- Is the farmer long or short cocoa? Graph the farmer's profit per ton as
- a function of cocoa prices in one year.
+ Is the farmer long or short cocoa? Graph the farmer's profit as a function
+ of cocoa prices in one year.
 \end_layout
 
 \begin_layout Itemize
@@ -3250,14 +3279,7 @@ status open
 
 \end_inset
 
- The one-year forward price for cocoa is 
-\begin_inset Formula $\$2,600$
-\end_inset
-
- per metric ton.
- How can the farmer hedge her exposure using forward contracts? Graph the
- payoff per metric ton of the forward contract as a function of cocoa prices
- in one year.
+ How can the farmer hedge her exposure using forwards?
 \end_layout
 
 \begin_layout Itemize
@@ -3283,17 +3305,44 @@ status open
 
 \end_inset
 
- Suppose the farmer hedges her entire production using forward contracts.
- What is her profit per ton if the spot price in one year is 
+ The one-year forward price is 
+\begin_inset Formula $\$2,600$
+\end_inset
+
+.
+ Graph the payoff of the forward as a function of cocoa prices in one year.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+ Suppose the farmer hedges using forwards.
+ What is her profit if the spot price in one year is 
 \begin_inset Formula $\$2,000$
 \end_inset
 
 ? 
 \begin_inset Formula $\$2,600?$
-\end_inset
-
- 
-\begin_inset Formula $\$2,900?$
 \end_inset
 
 
@@ -3650,6 +3699,275 @@ Practice problem #3
 status open
 
 \begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Suppose the discretely compounded risk-free rate is 
+\begin_inset Formula $r=0.05$
+\end_inset
+
+ and today is date 
+\begin_inset Formula $t=0$
+\end_inset
+
+.
+ What is the price of a risk-free bond that pays 
+\begin_inset Formula $\$100$
+\end_inset
+
+ at date 
+\begin_inset Formula $T=1$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Suppose today is date 
+\begin_inset Formula $t=0$
+\end_inset
+
+.
+ The price of a risk-free bond that pays 
+\begin_inset Formula $\$110$
+\end_inset
+
+ at date 
+\begin_inset Formula $T=1$
+\end_inset
+
+ is 
+\begin_inset Formula $\$100$
+\end_inset
+
+.
+ What is the discretely compounded risk-free rate?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Suppose the continuously compounded risk-free rate is 
+\begin_inset Formula $r=0.10$
+\end_inset
+
+ and today is date 
+\begin_inset Formula $t=0$
+\end_inset
+
+.
+ What is the price of a risk-free bond that pays 
+\begin_inset Formula $\$1$
+\end_inset
+
+ at date 
+\begin_inset Formula $T=10$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+ Suppose today is date 
+\begin_inset Formula $t=0$
+\end_inset
+
+.
+ The price of a risk-free bond that pays 
+\begin_inset Formula $\$100$
+\end_inset
+
+ at date 
+\begin_inset Formula $T=3$
+\end_inset
+
+ is 
+\begin_inset Formula $\$95$
+\end_inset
+
+.
+ What is the continuously compounded risk-free rate?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #3 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #3 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -3780,44 +4098,6 @@ status open
 
 \end_deeper
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #3 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
 \begin_layout Plain Layout
 \begin_inset Separator parbreak
 \end_inset
@@ -3931,182 +4211,6 @@ status open
 
 \begin_layout Standard
 \begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #4
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- Suppose the 
-\bar under
-continuously compounded
-\bar default
- risk-free rate is 
-\begin_inset Formula $r=0.05$
-\end_inset
-
- and today is date 
-\begin_inset Formula $t=0$
-\end_inset
-
-.
- Compute the prices of the following:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- A risk-free security that pays 
-\begin_inset Formula $\$1$
-\end_inset
-
- at date 
-\begin_inset Formula $T=1$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- A risk-free zero-coupon bond with a face value of 
-\begin_inset Formula $\$100$
-\end_inset
-
- and maturity of 
-\begin_inset Formula $T=5$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- A 
-\begin_inset Formula $T=3$
-\end_inset
-
- year risk-free coupon bond with annual coupons of 
-\begin_inset Formula $\$5$
-\end_inset
-
- and face value of 
-\begin_inset Formula $\$100$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #4 solutions
-\end_layout
-
 \end_inset
 
 
@@ -4402,33 +4506,8 @@ Summary
 
 \begin_deeper
 \begin_layout Itemize
-A 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward contract}
-\end_layout
-
-\end_inset
-
- is an agreement to buy or sell an asset at a future date at the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward price}
-\end_layout
-
-\end_inset
-
-.
+A forward contract is an agreement to buy or sell an asset at a future date
+ at the forward price.
 \end_layout
 
 \begin_layout Itemize
@@ -4552,7 +4631,7 @@ References
 
 \begin_deeper
 \begin_layout Itemize
-Textbook chapters XXX, XXX, and XXX.
+Textbook chapters 2.1, 4.1, and 4.2.
 \end_layout
 
 \begin_layout Itemize

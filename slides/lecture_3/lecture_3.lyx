@@ -40,6 +40,14 @@
 \usepackage{amsfonts}
 \usepackage{bbm}
 
+\usepackage{pst-plot} 
+%\usepackage{pst-tree}
+\usepackage{pstricks}
+\usepackage{pst-3d}
+\usepackage{pstricks, egameps, sgamevar}
+\usepackage{pst-3d}
+%\usepackage{pst-pdf}
+
 %\usefonttheme{serif}
 
 \setbeamersize{text margin left=5mm,text margin right=10mm} 
@@ -213,7 +221,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../template/uk_logo2.jpg
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/template/uk_logo2.jpg
 	scale 20
 
 \end_inset
@@ -272,6 +280,66 @@ Motivation
 status open
 
 \begin_layout Plain Layout
+Where does 
+\begin_inset Formula $F_{t,T}$
+\end_inset
+
+ come from?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/weif_1.PNG
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 The forward price
 \end_layout
 
@@ -286,8 +354,8 @@ The forward price
 
 \begin_deeper
 \begin_layout Itemize
-A forward contract is an agreement to buy or sell an asset at a future date
- at the forward price.
+A forward contract is an agreement to buy or sell an asset in the future
+ at a price specified today.
 \end_layout
 
 \begin_layout Itemize
@@ -304,8 +372,19 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Typically, no money is exchanged between the buyer and seller on the origination
- date.
+Payoff to a long forward contract at date 
+\begin_inset Formula $T$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+X_{T}=S_{T}-F_{t,T}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -322,34 +401,42 @@ status open
 \end_layout
 
 \begin_layout Itemize
-At what price 
+No money is exchanged at date 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+What price 
 \begin_inset Formula $F_{t,T}$
 \end_inset
 
- are both parties willing to transact?
+ clears the market?
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
+\end_deeper
 \begin_layout Plain Layout
-
-\end_layout
-
+\begin_inset Separator parbreak
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
-In other words, what is the forward price that makes this a fair trade?
- 
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
 \end_inset
 
 
@@ -367,330 +454,7 @@ In other words, what is the forward price that makes this a fair trade?
 status open
 
 \begin_layout Plain Layout
-Cocoa price
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../lecture_2/timeline1.PNG
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Hershey's unhedged exposure
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../lecture_2/hershey_profit.PNG
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cocoa producer's unhedged exposure
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../lecture_2/cocoa_profit.PNG
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Opposite wants in risk
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../lecture_2/surplus.PNG
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains to trade
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The cocoa producer and Hershey can fix a price today.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Then both will be fully insured against cocoa price risk.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Long risk transferred from producer to Hershey.
- Short risk is transferred from Hershey to producer.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Can a derivative be used to achieve their goal?
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Yes! The producer and Hershey can enter into a forward contract.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Roadmap: the basics of forward contracts
+Roadmap: finding the forward price
 \end_layout
 
 \end_inset
@@ -717,7 +481,7 @@ status open
 
  
 \series bold
-Definitions
+No-arbitrage and the law of one price
 \end_layout
 
 \begin_layout Itemize
@@ -743,7 +507,7 @@ status open
 
 \end_inset
 
- Payoffs
+ The forward price.
 \end_layout
 
 \begin_layout Itemize
@@ -769,7 +533,7 @@ status open
 
 \end_inset
 
- Application of forwards
+ Value of off-market forwards.
 \end_layout
 
 \begin_layout Itemize
@@ -795,7 +559,7 @@ status open
 
 \end_inset
 
- Interest rates
+ Summary
 \end_layout
 
 \end_deeper
@@ -807,7 +571,7 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Definitions
+No-arbitrage and the LoP
 \end_layout
 
 \begin_layout Standard
@@ -822,7 +586,7 @@ Definitions
 status open
 
 \begin_layout Plain Layout
-Forward contracts
+Arbitrage
 \end_layout
 
 \end_inset
@@ -844,26 +608,12 @@ status open
 
 
 \backslash
-textcolor{kblue}{forward contract}
+textcolor{kblue}{portfolio}
 \end_layout
 
 \end_inset
 
- is an agreement to buy or sell an asset at a future date at a price specified
- today (called the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward price}
-\end_layout
-
-\end_inset
-
-).
+ is a combination of securities.
 \end_layout
 
 \begin_layout Itemize
@@ -880,7 +630,20 @@ status open
 \end_layout
 
 \begin_layout Itemize
-A forward contract has two counterpaties:
+An 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{arbitrage}
+\end_layout
+
+\end_inset
+
+ is a portfolio that either:
 \end_layout
 
 \begin_deeper
@@ -902,14 +665,13 @@ status open
 status open
 
 \begin_layout Plain Layout
-
-\series bold
-– 
+1.
 \end_layout
 
 \end_inset
 
- The buyer (long) is obligated to pay the forward price.
+ Costs nothing today, never yields negative cash flows, and sometimes yields
+ positive cash flows.
 \end_layout
 
 \begin_layout Itemize
@@ -930,17 +692,53 @@ status open
 status open
 
 \begin_layout Plain Layout
-
-\series bold
-– 
+2.
 \end_layout
 
 \end_inset
 
- The seller (short) is obligated to sell at the forward price.
+ Costs a negative amount today (i.e., you get paid to buy it) and never yields
+ negative cash flows.
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Arbitrage with no uncertainty
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let 
+\begin_inset Formula $V_{t}$
+\end_inset
+
+ denote the price of a portfolio today.
+\end_layout
+
 \begin_layout Itemize
 \begin_inset Argument item:1
 status open
@@ -955,8 +753,53 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Typically, no money is exchanged when the contract is initiated.
- Contracts are usually cash-settled on the expiration date.
+Let 
+\begin_inset Formula $V_{T}$
+\end_inset
+
+ denote the payoff of the portfolio in the future.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Suppose that 
+\begin_inset Formula $V_{T}$
+\end_inset
+
+ is known today – i.e., no uncertainty.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+When is the portfolio 
+\begin_inset Formula $V$
+\end_inset
+
+ an arbitrage?
 \end_layout
 
 \end_deeper
@@ -979,7 +822,7 @@ Typically, no money is exchanged when the contract is initiated.
 status open
 
 \begin_layout Plain Layout
-Forward contract timeline
+A portfolio with no uncertainty
 \end_layout
 
 \end_inset
@@ -994,25 +837,769 @@ Forward contract timeline
 \begin_deeper
 \begin_layout Standard
 \align center
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../lecture_2/timeline1.PNG
-	scale 70
+
+
+\backslash
+psset{unit=.6mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=2pt,linecolor=blue](10,0)(110,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(10,50){ 
+\backslash
+underline{today} }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(110,50){ 
+\backslash
+underline{the future} }  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,0){ $V_t$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,0){ $V_T$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
+\end_layout
 
 \end_inset
 
 
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Arbitrage with no uncertainty
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With no uncertainty, 
+\begin_inset Formula $V$
+\end_inset
+
+ is an arbitrage if either:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $V_{t}=0$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{T}>0$
+\end_inset
+
+ or
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $V_{t}<0$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{T}\geq0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The first is 
+\begin_inset Quotes eld
+\end_inset
+
+something for nothing
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The second is 
+\begin_inset Quotes eld
+\end_inset
+
+get paid for potentially something
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Arbitrage with uncertainty
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now suppose there is uncertainty about the payoff 
+\begin_inset Formula $V_{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Specifically, two possible states of the world in the future:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ State 
+\begin_inset Formula $u$
+\end_inset
+
+ (
+\begin_inset Quotes eld
+\end_inset
+
+up
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ State 
+\begin_inset Formula $d$
+\end_inset
+
+ (
+\begin_inset Quotes eld
+\end_inset
+
+down
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Let 
+\begin_inset Formula $V_{T}(\omega)$
+\end_inset
+
+ be the payoff of the portfolio in state 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+When is the portfolio 
+\begin_inset Formula $V$
+\end_inset
+
+ an arbitrage?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A portfolio with uncertainty
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+psset{unit=.6mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{black} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{pspicture}(-20,-50)(140,70)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=2pt,linecolor=blue](10,0)(110,35)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=2pt,linecolor=blue](10,0)(110,-35)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(10,50){ 
+\backslash
+underline{today} }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(110,50){ 
+\backslash
+underline{the future} }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,0){ $V_t$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,35){ $V_T(u)$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,-35){ $V_T(d)$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Arbitrage with uncertainty
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With uncertainty over the future state 
+\begin_inset Formula $\omega$
+\end_inset
+
+, 
+\begin_inset Formula $V$
+\end_inset
+
+ is an arbitrage if either:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $V_{t}=0$
+\end_inset
+
+ and either:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+a.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $V_{T}(u)>0$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{T}(d)\geq0$
+\end_inset
+
+ or
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+b.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $V_{T}(u)\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{T}(d)>0$
+\end_inset
+
+ or
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $V_{t}<0$
+\end_inset
+
+ and both 
+\begin_inset Formula $V_{T}(u)\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{T}(d)\geq0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The first is 
+\begin_inset Quotes eld
+\end_inset
+
+something for nothing
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The second is 
+\begin_inset Quotes eld
+\end_inset
+
+get paid for potentially something
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -1408,13 +1995,13 @@ Forward contract timeline
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../lecture_2/timeline2.PNG
-	scale 70
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/template/uk_logo2.jpg
+	scale 20
 
 \end_inset
 
@@ -1692,13 +2279,13 @@ The minimum payoff to the long party is
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/code/lecture_2/pp1a.pdf
-	scale 45
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/template/uk_logo2.jpg
+	scale 20
 
 \end_inset
 
@@ -1767,13 +2354,13 @@ If
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/code/lecture_2/pp1b.pdf
-	scale 45
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/template/uk_logo2.jpg
+	scale 20
 
 \end_inset
 
@@ -1819,13 +2406,13 @@ Practice problem #1 solutions
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/code/lecture_2/pp1c.pdf
-	scale 45
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/template/uk_logo2.jpg
+	scale 20
 
 \end_inset
 
