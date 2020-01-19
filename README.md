@@ -1,2 +1,2 @@
 # derivatives
-Course notes and code for FIN 452: options, futures, and derivatives. 
+Course notes and code for Options, Futures, and Derivatives. 

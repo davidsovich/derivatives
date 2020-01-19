@@ -1889,7 +1889,7 @@ Consider two securities:
 \end_inset
 
  has a price of 
-\begin_inset Formula $X_{t}=1$
+\begin_inset Formula $X_{0}=1$
 \end_inset
 
  and payoffs 
@@ -1906,7 +1906,7 @@ Consider two securities:
 \end_inset
 
  has a price of 
-\begin_inset Formula $Y_{t}=1$
+\begin_inset Formula $Y_{0}=2$
 \end_inset
 
  and payoffs 
@@ -1915,6 +1915,32 @@ Consider two securities:
 
  and 
 \begin_inset Formula $Y_{T}(d)=3$
+\end_inset
+
+.
+ The probability of the 
+\begin_inset Quotes eld
+\end_inset
+
+up
+\begin_inset Quotes erd
+\end_inset
+
+ state occurring is 
+\begin_inset Formula $\Pr(u)=0.5$
+\end_inset
+
+.
+ The probability of the 
+\begin_inset Quotes eld
+\end_inset
+
+down
+\begin_inset Quotes erd
+\end_inset
+
+ state occurring is 
+\begin_inset Formula $\Pr(d)=0.5$
 \end_inset
 
 .
@@ -2323,6 +2349,33 @@ status open
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -2775,7 +2828,7 @@ status open
 
 \end_inset
 
- Short a risk-free bond with face value of 
+ Short a risk-free bond with face-value of 
 \begin_inset Formula $F_{0,T}$
 \end_inset
 
@@ -3890,7 +3943,7 @@ Among other things, synthetic positions can help investors avoid transactions
 status open
 
 \begin_layout Plain Layout
-Synthetics drove commodity futures growth
+Recall synthetics drove commodity futures growth
 \end_layout
 
 \end_inset
@@ -4620,6 +4673,33 @@ Practice problem scratch paper
 status open
 
 \begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Roadmap: the forward price
 \end_layout
 
@@ -4913,24 +4993,7 @@ References
 
 \begin_deeper
 \begin_layout Itemize
-Textbook chapters 2.1, 4.1, 4.2, and appendix B.2.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Textbook chapters 2.1, 4.1, 4.2, and appendix B.2.
+Textbook chapters 5.1, 5.2, and 5.3.
 \end_layout
 
 \begin_layout Itemize

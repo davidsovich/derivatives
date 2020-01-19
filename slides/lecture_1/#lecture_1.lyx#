@@ -1377,7 +1377,7 @@ Goldman paid
 \end_layout
 
 \begin_layout Subsection
-Definitions
+Derivatives
 \end_layout
 
 \begin_layout Standard
@@ -1419,7 +1419,7 @@ begin{figure}
 
 \begin_layout Plain Layout
 
-OKAY LET'S KIND OF GET TO WORK
+LET'S TAKE A STEP BACK
 \end_layout
 
 \begin_layout Plain Layout
@@ -1585,6 +1585,306 @@ Example:
 status open
 
 \begin_layout Plain Layout
+Most common types of derivatives
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Forwards.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Futures.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Swaps.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+ Call options.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+
+ Put options.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Most common types of underlying assets
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Stocks.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Bonds.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Commodities.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+ Interest rates and credit.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+
+ Other derivatives.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Size of derivatives market is eye-popping
 \end_layout
 
@@ -1712,7 +2012,7 @@ $9 trillion & 2011
 \begin_layout Plain Layout
 
 U.S.
- Gross domestic product & 
+ GDP & 
 \backslash
 $15 trillion & 2011 
 \backslash
@@ -1831,12 +2131,14 @@ status open
 
 \end_inset
 
- Speculation and investment:
+ Speculation:
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Naked positions or alpha porting.
+What drives the need for such a large ass derivatives market? Well two economic
+ reasons.
+ Naked positions or alpha porting.
 \end_layout
 
 \end_inset
@@ -1868,7 +2170,7 @@ status open
 
 \end_inset
 
- Derivatives can be used to express a specific view.
+ Derivatives used to express a specific view.
 \begin_inset Note Note
 status open
 
@@ -1905,7 +2207,7 @@ status open
 
 \end_inset
 
- Derivatives provide leverage.
+ Derivatives provide ample leverage.
 \end_layout
 
 \end_deeper
@@ -1932,7 +2234,7 @@ status open
 
 \end_inset
 
- Risk-sharing and hedging:
+ Hedging and diversification:
 \end_layout
 
 \begin_deeper
@@ -1985,7 +2287,11 @@ status open
 
 \end_inset
 
- Sixty percent of non-financial firms use derivatives.
+ Sixty percent of 
+\bar under
+non-financial
+\bar default
+ firms use derivatives.
 \end_layout
 
 \end_deeper
@@ -2351,6 +2657,10 @@ status open
 
 \end_layout
 
+\begin_layout Subsection
+Sideshow?
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -2363,7 +2673,73 @@ status open
 status open
 
 \begin_layout Plain Layout
-A word of caution
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+ARE DERIVATIVES JUST A SIDE-SHOW?
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Derivatives can impact macro-economy
 \end_layout
 
 \end_inset
@@ -2377,7 +2753,7 @@ A word of caution
 
 \begin_deeper
 \begin_layout Itemize
-Derivatives can reduce risks when used as insurance.
+Derivatives reduce financial risks when used as insurance.
 \end_layout
 
 \begin_layout Itemize
@@ -2394,7 +2770,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-This improves overall economic welfare.
+This can improve overall economic welfare.
 \begin_inset Note Note
 status collapsed
 
@@ -2475,7 +2851,7 @@ The AIG CDS machine
 
 \begin_deeper
 \begin_layout Itemize
-AIG is an insurance company with limited oversight.
+AIG is an insurance company formerly with limited oversight.
 \end_layout
 
 \begin_layout Itemize
@@ -2493,6 +2869,16 @@ status open
 
 \begin_layout Itemize
 AIG wrote billions in MBS CDS leading up to the financial crisis.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Wrote means short.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -2510,11 +2896,12 @@ status open
 
 \begin_layout Itemize
 Data and models suggested these were 
-\begin_inset Quotes eld
-\end_inset
+\begin_inset CommandInset href
+LatexCommand href
+name "“free money”"
+target "https://www.wsj.com/articles/SB122538449722784635?mod=article_inline"
+literal "false"
 
-free money
-\begin_inset Quotes erd
 \end_inset
 
 .
@@ -2740,7 +3127,125 @@ hypertarget{aig}{}
 
 \end_inset
 
-And so on until AIG was on the verge of 
+And so on...until AIG was on the verge of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{aig_price}{insolvency}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The AIG bailout
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Instead of letting AIG fail, the Fed and Treasury bailed it out.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Taxpayers were not happy about this.
+ So why do it?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rationale was AIG's
+\end_layout
+
+\begin_layout Itemize
+Lack of assets caused lenders to cut-off credit to AIG.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypertarget{aig}{}
+\end_layout
+
+\end_inset
+
+And so on...until AIG was on the verge of 
 \begin_inset ERT
 status open
 
@@ -2844,7 +3349,7 @@ status open
 \end_inset
 
  U.S.
- government injected $185 billion into company.
+ government injected $185 billion equity.
 \end_layout
 
 \end_deeper
@@ -2862,7 +3367,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-The public was not happy, but it was necessary to avert catastrophe.
+Public was not happy, but it was necessary to avert disaster.
 \end_layout
 
 \begin_layout Itemize
@@ -2879,7 +3384,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Interestingly, taxpayers eventually made a lot of money on this deal!
+Interestingly, taxpayers eventually made money on this deal!
 \end_layout
 
 \end_deeper
@@ -3081,11 +3586,11 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Gary Gorton article is in the 
+Graphs from Bloomberg terminal and 
 \begin_inset CommandInset href
 LatexCommand href
-name "Wall Street Journal"
-target "https://www.wsj.com/articles/SB120036645057290423"
+name "US Government"
+target "https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf"
 literal "false"
 
 \end_inset
@@ -3139,7 +3644,7 @@ literal "false"
 status open
 
 \begin_layout Plain Layout
-Subprime time!
+Subprime time
 \end_layout
 
 \end_inset
@@ -3439,7 +3944,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/aig3.PNG
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/aig2.PNG
 	scale 42.5
 
 \end_inset
