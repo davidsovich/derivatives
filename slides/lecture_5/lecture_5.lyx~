@@ -193,7 +193,7 @@ status open
 \align center
 
 \size largest
-Lecture 3 
+Lecture 4 
 \begin_inset ERT
 status open
 
@@ -208,7 +208,7 @@ status open
 
 \end_inset
 
- Forward price
+ Forward price with frictions
 \end_layout
 
 \begin_layout Standard
@@ -269,7 +269,7 @@ Spring 2020
 status open
 
 \begin_layout Plain Layout
-Where does the forward price come from?
+What assumptions did we make?
 \end_layout
 
 \end_inset
@@ -278,21 +278,15 @@ Where does the forward price come from?
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
+\begin_layout Itemize
+What happens if we relax the following assumptions?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/weif_1.PNG
-	scale 27.5
-
-\end_inset
-
 
 \end_layout
 
@@ -301,6 +295,127 @@ status collapsed
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Zero cost of storage.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+a.
+\end_layout
+
+\end_inset
+
+ Financial asset: no dividends.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+b.
+\end_layout
+
+\end_inset
+
+ Commodity: no storage cost.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Investor can short the underlying.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Investment asset, no transaction costs, borrowing rate, ...
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -316,30 +431,12 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-The forward price
+Picture of S&P dividend yield here
 \end_layout
 
 \end_inset
@@ -352,93 +449,100 @@ The forward price
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-A forward contract is an agreement to buy or sell an asset in the future
- at a price specified today.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
+\begin_layout Standard
+\align center
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
+
+\backslash
+psset{unit=.6mm} 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Payoff to a long forward contract at date 
-\begin_inset Formula $T$
-\end_inset
-
-:
-\begin_inset Formula 
-\[
-X_{T}=S_{T}-F_{t,T}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
 
 \begin_layout Plain Layout
 
+
+\backslash
+color{black} 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-No money is exchanged at date 
-\begin_inset Formula $t$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
 
 \begin_layout Plain Layout
 
+
+\backslash
+begin{pspicture}(-20,-50)(140,70)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+psline[linewidth=2pt,linecolor=blue](10,0)(110,0)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(10,50){ 
+\backslash
+underline{today} }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(110,50){ 
+\backslash
+underline{the future} }  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(0,0){ $V_t$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rput(120,0){ $V_T$ }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{pspicture}
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-What price 
-\begin_inset Formula $F_{t,T}$
-\end_inset
-
- clears the market?
 \end_layout
 
 \end_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
 
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator parbreak
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+No-arbitrage and the LoP
 \end_layout
 
 \begin_layout Frame
@@ -446,7 +550,7 @@ What price
 status open
 
 \begin_layout Plain Layout
-Roadmap: the forward price
+Roadmap: forward pricing with frictions
 \end_layout
 
 \end_inset
@@ -473,7 +577,7 @@ status open
 
  
 \series bold
-No-arbitrage and the LoP.
+No-arbitrage and the law of one price
 \end_layout
 
 \begin_layout Itemize
@@ -499,7 +603,7 @@ status open
 
 \end_inset
 
- Forward price.
+ Deriving the no-arbitrage forward price.
 \end_layout
 
 \begin_layout Itemize
@@ -525,7 +629,7 @@ status open
 
 \end_inset
 
- Synthetic positions.
+ Value of off-market forwards.
 \end_layout
 
 \begin_layout Itemize
@@ -551,32 +655,6 @@ status open
 
 \end_inset
 
- Value of off-market forwards.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-5.
-\end_layout
-
-\end_inset
-
  Summary
 \end_layout
 
@@ -593,10 +671,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-No-arbitrage and the LoP
 \end_layout
 
 \begin_layout Standard
@@ -645,7 +719,7 @@ textcolor{kblue}{portfolio}
 
 \end_inset
 
- is a collection of securities.
+ is a combination of securities.
 \end_layout
 
 \begin_layout Itemize
@@ -713,7 +787,7 @@ status open
 \end_inset
 
  Costs nothing today, never yields negative cash flows, and sometimes yields
- positive cash flows.
+ positive cash flows or
 \end_layout
 
 \begin_layout Itemize
@@ -739,7 +813,7 @@ status open
 
 \end_inset
 
- Costs a negative amount today (you get paid to buy it) and never yields
+ Costs a negative amount today (i.e., you get paid to buy it) and never yields
  negative cash flows.
 \end_layout
 
@@ -764,7 +838,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Illustrating arbitrage with no uncertainty
+Arbitrage with no uncertainty
 \end_layout
 
 \end_inset
@@ -775,7 +849,7 @@ Illustrating arbitrage with no uncertainty
 \begin_deeper
 \begin_layout Itemize
 Let 
-\begin_inset Formula $V_{0}$
+\begin_inset Formula $V_{t}$
 \end_inset
 
  denote the price of a portfolio today.
@@ -799,7 +873,7 @@ Let
 \begin_inset Formula $V_{T}$
 \end_inset
 
- denote the value of the portfolio in the future.
+ denote the payoff of the portfolio in the future.
 \end_layout
 
 \begin_layout Itemize
@@ -932,7 +1006,7 @@ underline{the future} }
 
 
 \backslash
-rput(0,0){ $V_0$ }
+rput(0,0){ $V_t$ }
 \end_layout
 
 \begin_layout Plain Layout
@@ -974,7 +1048,7 @@ end{pspicture}
 status open
 
 \begin_layout Plain Layout
-Arbitrage conditions with no uncertainty
+Arbitrage with no uncertainty
 \end_layout
 
 \end_inset
@@ -1016,14 +1090,14 @@ status open
 \end_inset
 
  
-\begin_inset Formula $V_{0}=0$
+\begin_inset Formula $V_{t}=0$
 \end_inset
 
  and 
 \begin_inset Formula $V_{T}>0$
 \end_inset
 
-.
+ or
 \begin_inset Note Note
 status open
 
@@ -1060,7 +1134,7 @@ status open
 \end_inset
 
  
-\begin_inset Formula $V_{0}<0$
+\begin_inset Formula $V_{t}<0$
 \end_inset
 
  and 
@@ -1095,7 +1169,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-The first case is 
+The first is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1120,7 +1194,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-The second case is 
+The second is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1151,7 +1225,7 @@ get paid to potentially get something
 status open
 
 \begin_layout Plain Layout
-Practice problem
+Practice problem #1
 \end_layout
 
 \end_inset
@@ -1184,7 +1258,7 @@ status open
 \end_inset
 
  has a price of 
-\begin_inset Formula $X_{0}=1$
+\begin_inset Formula $X_{t}=1$
 \end_inset
 
  and a certain payoff of 
@@ -1197,16 +1271,16 @@ status open
 \end_inset
 
  has a price of 
-\begin_inset Formula $Y_{0}=1$
+\begin_inset Formula $Y_{t}=1$
 \end_inset
 
- and a payoff of 
+ and a certain payoff of 
 \begin_inset Formula $Y_{T}=2$
 \end_inset
 
 .
  Is there an arbitrage? If so, construct a portfolio to capitalize upon
- it.
+ the arbitrage.
 \end_layout
 
 \end_deeper
@@ -1229,7 +1303,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Practice problem scratch paper
+Practice problem #1 solutions
 \end_layout
 
 \end_inset
@@ -1256,7 +1330,7 @@ Practice problem scratch paper
 status open
 
 \begin_layout Plain Layout
-Illustrating arbitrage with uncertainty
+Arbitrage with uncertainty
 \end_layout
 
 \end_inset
@@ -1326,12 +1400,7 @@ up
 \begin_inset Quotes erd
 \end_inset
 
-) with payoff 
-\begin_inset Formula $V_{T}(u)$
-\end_inset
-
-.
- 
+).
 \end_layout
 
 \begin_layout Itemize
@@ -1369,8 +1438,30 @@ down
 \begin_inset Quotes erd
 \end_inset
 
-) with payoff 
-\begin_inset Formula $V_{T}(d)$
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Let 
+\begin_inset Formula $V_{T}(\omega)$
+\end_inset
+
+ be the payoff of the portfolio in state 
+\begin_inset Formula $\omega$
 \end_inset
 
 .
@@ -1389,7 +1480,6 @@ status open
 
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 When is the portfolio 
 \begin_inset Formula $V$
@@ -1493,7 +1583,7 @@ underline{the future} }
 
 
 \backslash
-rput(0,0){ $V_0$ }
+rput(0,0){ $V_t$ }
 \end_layout
 
 \begin_layout Plain Layout
@@ -1542,7 +1632,7 @@ end{pspicture}
 status open
 
 \begin_layout Plain Layout
-Arbitrage conditions with uncertainty
+Arbitrage with uncertainty
 \end_layout
 
 \end_inset
@@ -1552,8 +1642,8 @@ Arbitrage conditions with uncertainty
 
 \begin_deeper
 \begin_layout Itemize
-With uncertainty over state 
-\begin_inset Formula $\{u,d\}$
+With uncertainty over the state 
+\begin_inset Formula $\omega$
 \end_inset
 
 , 
@@ -1588,7 +1678,7 @@ status open
 \end_inset
 
  
-\begin_inset Formula $V_{0}=0$
+\begin_inset Formula $V_{t}=0$
 \end_inset
 
  and either:
@@ -1626,7 +1716,7 @@ a.
 \begin_inset Formula $V_{T}(d)\geq0$
 \end_inset
 
-.
+ or
 \begin_inset Note Note
 status open
 
@@ -1670,7 +1760,7 @@ b.
 \begin_inset Formula $V_{T}(d)>0$
 \end_inset
 
-.
+ or
 \end_layout
 
 \end_deeper
@@ -1698,7 +1788,7 @@ status open
 \end_inset
 
  
-\begin_inset Formula $V_{0}<0$
+\begin_inset Formula $V_{t}<0$
 \end_inset
 
  and both 
@@ -1743,7 +1833,7 @@ Explain how they should exploit it here.
 status open
 
 \begin_layout Plain Layout
-Practice problem
+Practice problem #2
 \end_layout
 
 \end_inset
@@ -1757,12 +1847,12 @@ Practice problem
 status open
 
 \begin_layout Plain Layout
-
+1.
 \end_layout
 
 \end_inset
 
-Consider two securities: 
+ Consider two securities: 
 \begin_inset Formula $X$
 \end_inset
 
@@ -1776,7 +1866,7 @@ Consider two securities:
 \end_inset
 
  has a price of 
-\begin_inset Formula $X_{0}=1$
+\begin_inset Formula $X_{t}=1$
 \end_inset
 
  and payoffs 
@@ -1793,7 +1883,7 @@ Consider two securities:
 \end_inset
 
  has a price of 
-\begin_inset Formula $Y_{0}=1$
+\begin_inset Formula $Y_{t}=1$
 \end_inset
 
  and payoffs 
@@ -1809,62 +1899,6 @@ Consider two securities:
  it.
 \end_layout
 
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 \begin_inset Argument item:1
 status open
@@ -1875,7 +1909,20 @@ status open
 
 \end_inset
 
-Consider two securities: 
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Consider two securities: 
 \begin_inset Formula $X$
 \end_inset
 
@@ -1942,7 +1989,7 @@ Consider two securities:
 status open
 
 \begin_layout Plain Layout
-Practice problem scratch paper
+Practice problem #2 solutions
 \end_layout
 
 \end_inset
@@ -2103,9 +2150,9 @@ textcolor{kblue}{law of one price (LoP)}
 
  states that portfolios with the same 
 \bar under
-payoffs (or terminal values) 
+payoffs
 \bar default
-must have the same 
+ must have the same 
 \bar under
 price
 \bar default
@@ -2167,7 +2214,7 @@ The LoP is the fundamental concept behind all derivatives pricing.
 status open
 
 \begin_layout Plain Layout
-Practice problem
+Practice problem #3
 \end_layout
 
 \end_inset
@@ -2191,7 +2238,7 @@ status open
 \end_inset
 
  has a price of 
-\begin_inset Formula $X_{0}=10$
+\begin_inset Formula $X_{t}=10$
 \end_inset
 
  and payoffs 
@@ -2204,6 +2251,7 @@ status open
 
 .
  Assume there is no arbitrage.
+ Answer the following:
 \end_layout
 
 \begin_deeper
@@ -2342,7 +2390,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Practice problem scratch paper
+Practice problem #3 solutions
 \end_layout
 
 \end_inset
@@ -2362,6 +2410,30 @@ Practice problem scratch paper
 \end_inset
 
 
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #3 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Forward price
 \end_layout
 
 \begin_layout Standard
@@ -2399,7 +2471,7 @@ status open
 
 \end_inset
 
- No-arbitrage and the LoP.
+ No-arbitrage and the law of one price
 \end_layout
 
 \begin_layout Itemize
@@ -2429,7 +2501,7 @@ status open
 
  
 \series bold
-Forward price.
+Deriving the no-arbitrage forward price.
 \end_layout
 
 \begin_layout Itemize
@@ -2455,7 +2527,7 @@ status open
 
 \end_inset
 
- Synthetic positions.
+ Value of off-market forwards.
 \end_layout
 
 \begin_layout Itemize
@@ -2481,32 +2553,6 @@ status open
 
 \end_inset
 
- Value of off-market forwards.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-5.
-\end_layout
-
-\end_inset
-
  Summary
 \end_layout
 
@@ -2516,10 +2562,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Forward price
 \end_layout
 
 \begin_layout Standard
@@ -2579,14 +2621,14 @@ status open
 \end_inset
 
  Two dates: 
-\begin_inset Formula $0$
+\begin_inset Formula $t$
 \end_inset
 
- and 
+ (today) and 
 \begin_inset Formula $T$
 \end_inset
 
-.
+ (the future).
 \end_layout
 
 \begin_layout Itemize
@@ -2612,8 +2654,7 @@ status open
 
 \end_inset
 
- C.c.
- risk-free interest rate of 
+ Discrete risk-free interest rate of 
 \begin_inset Formula $r\geq0$
 \end_inset
 
@@ -2643,12 +2684,12 @@ status open
 
 \end_inset
 
- Cocoa spot price at date 
-\begin_inset Formula $t$
+ Cocoa price of 
+\begin_inset Formula $S_{t}$
 \end_inset
 
- of 
-\begin_inset Formula $S_{t}$
+ and random payoff 
+\begin_inset Formula $S_{T}$
 \end_inset
 
 .
@@ -2672,8 +2713,21 @@ status open
 Consider the payoff to a long forward:
 \begin_inset Formula 
 \[
-X_{T}=S_{T}-F_{0,T}
+X_{T}=S_{T}-F_{t,T}
 \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -2715,7 +2769,7 @@ Replicating portfolio
 \begin_deeper
 \begin_layout Itemize
 Form the following portfolio at date 
-\begin_inset Formula $0$
+\begin_inset Formula $t$
 \end_inset
 
 :
@@ -2746,7 +2800,7 @@ status open
 \end_inset
 
  Long one unit of cocoa at cost 
-\begin_inset Formula $S_{0}$
+\begin_inset Formula $S_{t}$
 \end_inset
 
 .
@@ -2775,8 +2829,8 @@ status open
 
 \end_inset
 
- Short a risk-free bond with face value of 
-\begin_inset Formula $F_{0,T}$
+ Short a zero-coupon bond with face value of 
+\begin_inset Formula $F_{t,T}$
 \end_inset
 
 .
@@ -2804,7 +2858,7 @@ The payoff to the portfolio at date
  is: 
 \begin_inset Formula 
 \[
-Y_{T}=S_{T}-F_{0,T}
+Y_{T}=S_{T}-F_{t,T}
 \]
 
 \end_inset
@@ -2813,7 +2867,20 @@ Y_{T}=S_{T}-F_{0,T}
 \end_layout
 
 \begin_layout Itemize
-This is the same payoff as the long forward!
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is the same payoff as the long forward in every state.
 \end_layout
 
 \end_deeper
@@ -2911,42 +2978,44 @@ underline{the future}}
 
 
 \backslash
-rput(-5,5){ $Y_0 = S_{0} - F_{0,T} e^{-rT}$ }
+rput(-5,5){ $Y_t = S_{t} - 
+\backslash
+frac{F_{t,T}}{(1+r)^{T-t}}$ }
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-rput(-22,-5){ $X_0 = 0$ }
+rput(-20,-5){ $X_t = 0$ }
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-rput(125,35){ $Y_T(u) = S_T(u) - F_{0,T}$ }
+rput(125,35){ $Y_T(u) = S_T(u) - F_{t,T}$ }
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-rput(125,25){ $X_T(u) = S_T(u) - F_{0,T}$ }
+rput(125,25){ $X_T(u) = S_T(u) - F_{t,T}$ }
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-rput(125,-35){ $Y_T(d) = S_T(d) - F_{0,T}$ }
+rput(125,-35){ $Y_T(d) = S_T(d) - F_{t,T}$ }
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-rput(125,-45){ $X_T(d) = S_T(d) - F_{0,T}$ }
+rput(125,-45){ $X_T(d) = S_T(d) - F_{t,T}$ }
 \end_layout
 
 \begin_layout Plain Layout
@@ -2991,7 +3060,8 @@ The forward price today
 
 \begin_deeper
 \begin_layout Itemize
-Apply LoP: value of forward today=value of replicating portfolio.
+By the LoP, the value of the forward contract today must equal the value
+ of the portfolio today.
 \end_layout
 
 \begin_layout Itemize
@@ -3008,10 +3078,10 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Value of forward today is zero by construction:
+Price of portfolio of long cocoa, short bond today is:
 \begin_inset Formula 
 \[
-X_{0}=0.
+Y_{t}=S_{t}-F_{t,T}/(1+r)^{T-t}
 \]
 
 \end_inset
@@ -3020,11 +3090,12 @@ X_{0}=0.
 \end_layout
 
 \begin_layout Itemize
-Value of long cocoa, short bond portfolio today is: 
-\begin_inset Formula 
-\[
-Y_{0}=S_{0}-F_{0,T}e^{-rT}.
-\]
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -3032,14 +3103,31 @@ Y_{0}=S_{0}-F_{0,T}e^{-rT}.
 \end_layout
 
 \begin_layout Itemize
-Equating 
-\begin_inset Formula $X_{0}=Y_{0}$
+Value of forward today is 
+\begin_inset Formula $X_{t}=0$
 \end_inset
 
- and solving for the forward price yields: 
+ by definition.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus, value of forward = price of portfolio implies:
 \begin_inset Formula 
 \[
-F_{0,T}=S_{0}e^{rT}.
+F_{t,T}=S_{t}(1+r)^{T-t}
 \]
 
 \end_inset
@@ -3071,7 +3159,7 @@ F_{0,T}=S_{0}e^{rT}.
 status open
 
 \begin_layout Plain Layout
-Practice problem
+Practice problem #4
 \end_layout
 
 \end_inset
@@ -3090,20 +3178,23 @@ status open
 
 \end_inset
 
- The spot price of cocoa is 
+ The spot price of cocoa at date 
+\begin_inset Formula $0$
+\end_inset
+
+ is 
 \begin_inset Formula $S_{0}=\$2,500$
 \end_inset
 
 .
- The c.c.
- risk-free interest rate is 
+ The risk-free interest rate is 
 \begin_inset Formula $0.05$
 \end_inset
 
 .
- Assume there is no arbitrage.
- What is the one-year forward price of cocoa? Demonstrate that payoffs to
- the long forward and the replicating portfolio are equivalent at date 
+ What is the one-year forward price of cocoa? Demonstrate that the payoff
+ to the long forward and the replicating portfolio are equivalent at date
+ 
 \begin_inset Formula $T$
 \end_inset
 
@@ -3130,7 +3221,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Practice problem scratch paper
+Practice problem #4
 \end_layout
 
 \end_inset
@@ -3157,15 +3248,7 @@ Practice problem scratch paper
 status open
 
 \begin_layout Plain Layout
-Exploiting arbitrage opportunities: 
-\begin_inset Quotes eld
-\end_inset
-
-buy low, sell high
-\begin_inset Quotes erd
-\end_inset
-
-
+Exploiting arbitrage opportunities
 \end_layout
 
 \end_inset
@@ -3176,7 +3259,7 @@ buy low, sell high
 \begin_deeper
 \begin_layout Itemize
 What would you do if 
-\begin_inset Formula $F_{0,T}>S_{0}e^{rT}$
+\begin_inset Formula $F_{t,T}>S_{t}(1+r)^{T-t}$
 \end_inset
 
 ? 
@@ -3251,7 +3334,7 @@ status open
 
 \begin_layout Itemize
 What would you do if 
-\begin_inset Formula $F_{0,T}<S_{0}e^{rT}$
+\begin_inset Formula $F_{t,T}<S_{t}(1+r)^{T-t}$
 \end_inset
 
 ?
@@ -3335,219 +3418,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Practice problem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- The spot price of cocoa is 
-\begin_inset Formula $S_{0}=\$2,500$
-\end_inset
-
-.
- The c.c.
- risk-free interest rate is 
-\begin_inset Formula $0.05$
-\end_inset
-
-.
- Suppose the one year forward price is 
-\begin_inset Formula $F_{0,1}=\$2,700$
-\end_inset
-
-.
- Is there an arbitrage? If so, construct a strategy to capitalize upon it.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-What is the meaning of 
-\begin_inset Formula $F_{0,T}=S_{0}e^{rT}?$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypertarget{fwd_price_meaning}{}
-\end_layout
-
-\end_inset
-
-Is the forward price = expected future spot price? 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperlink{predictor}{No!}
-\end_layout
-
-\end_inset
-
- Instead:
-\begin_inset Formula 
-\[
-F_{0,T}=S_{0}+\text{cost of carry}.
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{cost of carry}
-\end_layout
-
-\end_inset
-
- is the net cash flow associated with holding a long position in the underlying.
- In our setting: 
-\begin_inset Formula 
-\[
-\text{cost of carry}=\underbrace{S_{0}\left(e^{rT}-1\right)}_{\text{interest foregone by long}}.
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Roadmap: the forward price
+Roadmap: the basics of forward contracts
 \end_layout
 
 \end_inset
@@ -3570,7 +3441,7 @@ status open
 
 \end_inset
 
- No-arbitrage and the LoP.
+ Definitions
 \end_layout
 
 \begin_layout Itemize
@@ -3596,7 +3467,7 @@ status open
 
 \end_inset
 
- Forward price.
+ Payoffs
 \end_layout
 
 \begin_layout Itemize
@@ -3626,7 +3497,7 @@ status open
 
  
 \series bold
-Synthetic positions.
+Applications of forwards
 \end_layout
 
 \begin_layout Itemize
@@ -3652,50 +3523,10 @@ status open
 
 \end_inset
 
- Value of off-market forwards.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-5.
-\end_layout
-
-\end_inset
-
- Summary
+ Interest rates
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -3704,14 +3535,7 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Synthetic positions
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
+Application of forwards
 \end_layout
 
 \begin_layout Standard
@@ -3726,7 +3550,7 @@ Synthetic positions
 status open
 
 \begin_layout Plain Layout
-Synthetic positions
+Application of forwards
 \end_layout
 
 \end_inset
@@ -3736,44 +3560,20 @@ Synthetic positions
 
 \begin_deeper
 \begin_layout Itemize
-Replication
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-is not just for pricing,
-\end_layout
-
-\end_inset
-
- can be used to create synthetic positions:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+Two applications: Risk management and speculation.
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
+Risk management give the example.
 \end_layout
 
-\end_inset
+\begin_layout Itemize
+Speculation is because of the lvereage.
+\end_layout
 
- Forward = stock - bond.
+\begin_layout Itemize
+In our previous example, Hershey uses cocoa as an input in production.
+ Hence, it has a natural short position in cocoa.
 \end_layout
 
 \begin_layout Itemize
@@ -3790,16 +3590,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- Stock = forward + bond.
+On the other hand, farmers output cocoa and have natural long positions.
 \end_layout
 
 \begin_layout Itemize
@@ -3816,58 +3607,8 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- Bond = stock - forward.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Synthetics are the most basic form of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{financial engineering}
-\end_layout
-
-\end_inset
-
-.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Itemize
-Among other things, synthetic positions can help investors avoid transactions
- costs and perform regulatory arbitrage.
-\end_layout
-
-\end_inset
-
-
+A forward contract can be used to transfer risks between Hershey and cocoa
+ farmers and capture certain surplus.
 \end_layout
 
 \end_deeper
@@ -3890,59 +3631,7 @@ Among other things, synthetic positions can help investors avoid transactions
 status open
 
 \begin_layout Plain Layout
-Synthetics drove commodity futures growth
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/scaled_open_interest_by_cmdty_2.pdf
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Roadmap: the forward price
+Roadmap: the basics of forward contracts
 \end_layout
 
 \end_inset
@@ -3965,7 +3654,7 @@ status open
 
 \end_inset
 
- No-arbitrage and the LoP.
+ Definitions
 \end_layout
 
 \begin_layout Itemize
@@ -3991,7 +3680,7 @@ status open
 
 \end_inset
 
- Forward price.
+ Payoffs
 \end_layout
 
 \begin_layout Itemize
@@ -4017,7 +3706,7 @@ status open
 
 \end_inset
 
- Synthetic positions.
+ Application of forwards
 \end_layout
 
 \begin_layout Itemize
@@ -4047,43 +3736,10 @@ status open
 
  
 \series bold
-Value of off-market forwards.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-5.
-\end_layout
-
-\end_inset
-
- Summary
+Interest rates
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -4092,28 +3748,7 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Value of off-market forwards
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
+Interest rates
 \end_layout
 
 \begin_layout Standard
@@ -4128,149 +3763,7 @@ Value of off-market forwards
 status open
 
 \begin_layout Plain Layout
-The forward price changes over time
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What is the value of your original long forward at date 
-\begin_inset Formula $\tau?$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-psset{unit=.6mm} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-10)(140,70)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=2pt,linecolor=blue](10,0)(45,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=2pt,linecolor=blue](75,0)(110,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(10,50){ 
-\backslash
-underline{origination} }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(60,50){ 
-\backslash
-underline{tomorrow} }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(115,50){ 
-\backslash
-underline{the future} }  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,0){ $F_{0,T}$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(60,0){ $F_{
-\backslash
-tau,T}$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(128,0){ $F_{T,T}=S_T$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Value of off-market forward
+Technical note on interest rates
 \end_layout
 
 \end_inset
@@ -4280,77 +3773,9 @@ Value of off-market forward
 
 \begin_deeper
 \begin_layout Itemize
-The value of your original long forward at date 
-\begin_inset Formula $\tau$
-\end_inset
-
- is: 
-\begin_inset Formula 
-\[
-\left(F_{\tau,T}-F_{0,T}\right)e^{-r(T-\tau)}.
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Intuition:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- You can lock-in a payoff by shorting a new forward.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- Because the payoff is risk-free, we discount with rate 
-\begin_inset Formula $r$
+Throughout the semester, we will assume there is a single risk-free interest
+ rate of 
+\begin_inset Formula $r\geq0$
 \end_inset
 
 .
@@ -4370,58 +3795,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- If the forward price has risen, we have made a profit.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Exiting your position
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-To exit your position, enter a short forward at price 
-\begin_inset Formula $F_{\tau,T}$
-\end_inset
-
-.
+Risk-free cash flows should be discounted at the risk-free rate.
 \end_layout
 
 \begin_layout Itemize
@@ -4438,49 +3812,26 @@ status open
 \end_layout
 
 \begin_layout Itemize
-This new position costs nothing.
- Your new payoff at date 
+If 
+\begin_inset Formula $B_{T}\geq0$
+\end_inset
+
+ is a risk-free cash flow at time 
 \begin_inset Formula $T$
 \end_inset
 
- is: 
+, then the price of this cash flow at date 
+\begin_inset Formula $t<T$
+\end_inset
+
+ is given by:
 \begin_inset Formula 
 \[
-\begin{aligned}Y_{T} & =\left(S_{T}-F_{0,T}\right)-\left(S_{T}-F_{\tau,T}\right)\\
- & =F_{\tau,T}-F_{0,T}.
-\end{aligned}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-This payoff is risk-free.
- Hence, it must have time 
-\begin_inset Formula $\tau$
-\end_inset
-
- value: 
-\begin_inset Formula 
-\[
-\begin{aligned}Y_{\tau} & =\left(F_{\tau,T}-F_{0,T}\right)e^{-r(T-\tau)}\\
- & =S_{\tau}-S_{t}e^{r(\tau-t)}
-\end{aligned}
+B_{t}=\begin{cases}
+\frac{B_{T}}{(1+r)^{-(T-t)}} & \text{if }r\text{ is discretely compounded}\\
+\\
+B_{T}e^{-r(T-t)} & \text{if }r\text{ is continuously compounded}
+\end{cases}
 \]
 
 \end_inset
@@ -4489,13 +3840,8 @@ This payoff is risk-free.
 \end_layout
 
 \end_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -4513,7 +3859,7 @@ This payoff is risk-free.
 status open
 
 \begin_layout Plain Layout
-Practice problem
+Practice problem #3
 \end_layout
 
 \end_inset
@@ -4532,107 +3878,34 @@ status open
 
 \end_inset
 
-Suppose the spot price of the S&P 500 index is 
-\begin_inset Formula $S_{0}=\$3,300$
+ Suppose 
+\begin_inset Formula $r=0.05$
 \end_inset
 
- and risk-free interest rate is 
-\begin_inset Formula $r=0.10$
-\end_inset
-
-.
- At date 
-\begin_inset Formula $0$
-\end_inset
-
-, you enter into a long, three-year forward contract on the S&P 500 index.
- One year passes and the S&P index has risen to 
-\begin_inset Formula $S_{1}=\$3,500$
+ and today is date 
+\begin_inset Formula $t=0$
 \end_inset
 
 .
- What is the value of your forward contract at date 
-\begin_inset Formula $\tau=1$
-\end_inset
-
-?
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-ALternative is that the off-market value is 
-\begin_inset Formula $x$
-\end_inset
-
-.
- Solve for the current spot price.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Roadmap: the forward price
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
+ Compute the prices of the following securities assuming 
+\bar under
+discrete compounding:
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 \begin_inset Argument item:1
 status open
@@ -4643,7 +3916,15 @@ status open
 
 \end_inset
 
- No-arbitrage and the LoP.
+ A risk-free security that pays 
+\begin_inset Formula $\$1$
+\end_inset
+
+ at date 
+\begin_inset Formula $T=1$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -4669,7 +3950,15 @@ status open
 
 \end_inset
 
- Forward price.
+ A risk-free zero-coupon bond with a face value of 
+\begin_inset Formula $\$100$
+\end_inset
+
+ and maturity of 
+\begin_inset Formula $T=5$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -4695,7 +3984,96 @@ status open
 
 \end_inset
 
- Synthetic positions.
+ A 
+\begin_inset Formula $T=3$
+\end_inset
+
+ year risk-free coupon bond with annual coupons of 
+\begin_inset Formula $\$5$
+\end_inset
+
+ and face value of 
+\begin_inset Formula $\$100$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #3 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ The price is 
+\begin_inset Formula $\$1\cdot(1+0.05)^{-1}=\$0.952$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ The price is 
+\begin_inset Formula $\$100\cdot(1+0.05)^{-5}=\$78.353$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -4716,12 +4094,104 @@ status open
 status open
 
 \begin_layout Plain Layout
-4.
+3.
 \end_layout
 
 \end_inset
 
- Value of off-market forwards.
+ The price is 
+\begin_inset Formula $\sum_{i=1}^{3}5\cdot(1+0.05)^{-i}+\$100\cdot(1+0.05)^{-3}=\$100$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ Suppose 
+\begin_inset Formula $r=0.05$
+\end_inset
+
+ and today is date 
+\begin_inset Formula $t=0$
+\end_inset
+
+.
+ Compute the prices of the following securities assuming 
+\bar under
+continuous compounding:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ A risk-free security that pays 
+\begin_inset Formula $\$1$
+\end_inset
+
+ at date 
+\begin_inset Formula $T=1$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -4742,16 +4212,165 @@ status open
 status open
 
 \begin_layout Plain Layout
-
-\series bold
-5.
+2.
 \end_layout
 
 \end_inset
 
- 
-\series bold
-Summary
+ A risk-free zero-coupon bond with a face value of 
+\begin_inset Formula $\$100$
+\end_inset
+
+ and maturity of 
+\begin_inset Formula $T=5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ A 
+\begin_inset Formula $T=3$
+\end_inset
+
+ year risk-free coupon bond with annual coupons of 
+\begin_inset Formula $\$5$
+\end_inset
+
+ and face value of 
+\begin_inset Formula $\$100$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #3 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ The price is 
+\begin_inset Formula $\$1\cdot e^{-0.05}=\$0.951$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ The price is 
+\begin_inset Formula $\$100\cdot e^{-0.05\cdot5}=\$77.88$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ The price is 
+\begin_inset Formula $\sum_{i=1}^{3}5\cdot e^{-0.05\cdot i}+\$100\cdot e^{-0.05\cdot3}=\$99.43$
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -4795,7 +4414,7 @@ Summary
 
 \begin_deeper
 \begin_layout Itemize
-The 
+A 
 \begin_inset ERT
 status open
 
@@ -4803,13 +4422,12 @@ status open
 
 
 \backslash
-textcolor{kblue}{law of one price}
+textcolor{kblue}{forward contract}
 \end_layout
 
 \end_inset
 
- states that portfolios with the same payoffs must have the same prices.
- This is true if 
+ is an agreement to buy or sell an asset at a future date at the 
 \begin_inset ERT
 status open
 
@@ -4817,12 +4435,12 @@ status open
 
 
 \backslash
-textcolor{kblue}{no-arbitrage}
+textcolor{kblue}{forward price}
 \end_layout
 
 \end_inset
 
- holds.
+.
 \end_layout
 
 \begin_layout Itemize
@@ -4839,39 +4457,18 @@ status open
 \end_layout
 
 \begin_layout Itemize
-No-arbitrage forward price = spot price + cost of carry: 
-\begin_inset Formula 
-\begin{align*}
-F_{0,T} & =S_{0}e^{rT}
-\end{align*}
-
+Date 
+\begin_inset Formula $T$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
+ payoff of long forward originated at date 
+\begin_inset Formula $0$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Itemize
-Value of off-market forward at date 
-\begin_inset Formula $\tau\in(0,T)$
-\end_inset
-
- is: 
+:
 \begin_inset Formula 
 \[
-V_{\tau}=\left(S_{\tau}-S_{\tau}e^{r(\tau-t)}\right).
+X_{T}=S_{T}-F_{0,T}.
 \]
 
 \end_inset
@@ -4879,6 +4476,60 @@ V_{\tau}=\left(S_{\tau}-S_{\tau}e^{r(\tau-t)}\right).
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Forwards can be used to hedge input and output price risk.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Date 
+\begin_inset Formula $0$
+\end_inset
+
+ price risk-free 
+\begin_inset Formula $\$1$
+\end_inset
+
+ payoff at date 
+\begin_inset Formula $T$
+\end_inset
+
+ is 
+\begin_inset Formula $(1+r)^{-T}$
+\end_inset
+
+ or 
+\begin_inset Formula $e^{-rT}$
+\end_inset
+
+.
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -4913,7 +4564,7 @@ References
 
 \begin_deeper
 \begin_layout Itemize
-Textbook chapters 2.1, 4.1, 4.2, and appendix B.2.
+Textbook chapters XXX, XXX, and XXX.
 \end_layout
 
 \begin_layout Itemize
@@ -4930,45 +4581,11 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Textbook chapters 2.1, 4.1, 4.2, and appendix B.2.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Equity index forward prices are from Bloomberg.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Slides are created using code on my 
+Hershey chocolate article is in the 
 \begin_inset CommandInset href
 LatexCommand href
-name "Github"
-target "https://github.com/davidsovich/derivatives"
+name "Wall Street Journal"
+target "https://www.wsj.com/articles/hershey-pushes-up-prices-but-sales-volume-weakensin-north-america-11564055320"
 literal "false"
 
 \end_inset
@@ -4976,76 +4593,6 @@ literal "false"
 .
 \end_layout
 
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Why is 
-\begin_inset Formula $F_{0,T}\neq$
-\end_inset
-
- expected future spot price?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypertarget{predictor}{}
-\end_layout
-
-\end_inset
-
-If the underlying has a positive risk premium, then the forward price must
- be a downward biased predictor of future spot price:
-\begin_inset Formula 
-\[
-F_{0,T}<\mathbb{E}\left(S_{T}\right).
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Rationale:
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 \begin_inset Argument item:1
 status open
@@ -5060,16 +4607,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- Despite no investment, forward retains risks of underlying.
+Cocoa prices are from Bloomberg screen XXX.
 \end_layout
 
 \begin_layout Itemize
@@ -5086,95 +4624,10 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- To bear this risk, buyer must earn at least the risk premium.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- This can only occur if 
-\begin_inset Formula $X_{T}=S_{T}-F_{0,T}>0$
-\end_inset
-
-, on average.
+Graphs are created using code on my Github.
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperlink{fwd_price_meaning}{
-\backslash
-beamerbutton{Return}}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset

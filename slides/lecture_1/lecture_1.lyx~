@@ -193,7 +193,7 @@ status open
 \align center
 
 \size largest
-Lecture 2 
+Lecture 1 
 \begin_inset ERT
 status open
 
@@ -208,7 +208,7 @@ status open
 
 \end_inset
 
- Forward contracts
+ Introduction
 \end_layout
 
 \begin_layout Standard
@@ -284,7 +284,525 @@ NOTE: TO GENERATE GRAPHS MUST VIEW WITH PS2PDF (FOUR PLACES TO RIGHT OF
 status open
 
 \begin_layout Plain Layout
-Chocolate and cocoa
+Top ten greatest trades
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arraystretch}{1.4}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[htdp]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{cccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+Rank 		&	Trader 				& Position 					&	Year 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+1	& 	John Paulson				& Against subprime   	& 2008 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+2	&	 Jesse Livermore			& Against US equity 		&	1929 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+3 	&	John Templeton  			& Long Japan				& 1960s--1990s 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4	&	George Soros 			& Against UK pound  		& 1992			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+5	&	Paul Tudor Jones			& Short Black Monday 		& 1987			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+6	&	Andrew Hall					& Long oil 					& 2003 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+7	&	David Tepper				& Long financials 			& 2009			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+8	& 	Jim Chanos					& Short Enron 		&	2001 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+9 	& 	Jim Rogers 				& Long commodities 		& 1990s-- 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+10	&	Louis Bacon 				& Long oil, short equity	& 1990  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+At least half are derivatives trades
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arraystretch}{1.4}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[htdp]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{cccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+Rank 		&	Trader 				& Position 					&	Year 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+1	& 	John Paulson				& 
+\backslash
+textbf{Against subprime}   	& 2008 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+2	&	 Jesse Livermore			& Against US equity 		&	1929 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+3 	&	John Templeton  			& Long Japan				& 1960s--1990s 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4	&	George Soros 			& 
+\backslash
+textbf{Against UK pound}  		& 1992			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+5	&	Paul Tudor Jones			& Short Black Monday 		& 1987			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+6	&	Andrew Hall					& 
+\backslash
+textbf{Long oil} 					& 2003 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+7	&	David Tepper				& Long financials 			& 2009			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+8	& 	Jim Chanos					& Short Enron 		&	2001 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+9 	& 	Jim Rogers 				& 
+\backslash
+textbf{Long commodities} 		& 1990s-- 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+10	&	Louis Bacon 				& 
+\backslash
+textbf{Long oil}, short equity	& 1990  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+PAULSON'S BET AGAINST SUBPRIME
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Paulson's subprime view
 \end_layout
 
 \end_inset
@@ -298,29 +816,24 @@ Chocolate and cocoa
 
 \begin_deeper
 \begin_layout Itemize
-The price of a Hershey chocolate bar is 
-\begin_inset CommandInset href
-LatexCommand href
-name "stable"
-target "https://www.wsj.com/articles/hershey-pushes-up-prices-but-sales-volume-weakensin-north-america-11564055320"
-literal "false"
+John Paulson is an investment banker, not a macro-investor.
+\end_layout
 
-\end_inset
-
-.
-\begin_inset Note Note
-status collapsed
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
 
 \begin_layout Plain Layout
-On July 25, 2019, Hershey announced it would raise the price of its flagship
- chocolate bar for the first time in 5 years.
- See: https://www.wsj.com/articles/hershey-pushes-up-prices-but-sales-volume-weake
-nsin-north-america-11564055320.
+
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+He runs a hedge fund that specializes in risk arbitrage.
 \end_layout
 
 \begin_layout Itemize
@@ -349,7 +862,7 @@ hypertarget{intro}{}
 
 \end_inset
 
-But have you seen the price of 
+But in 2007 he was convinced of a 
 \begin_inset ERT
 status open
 
@@ -357,7 +870,399 @@ status open
 
 
 \backslash
-hyperlink{cocoa_price}{cocoa}
+hyperlink{subprime_time}{US housing bubble}
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+https://www.businessinsider.com/john-paulson-greatest-hedge-fund-investor-contrari
+an-2011-5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How can you bet on this view?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Betting on Paulson's view
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You can't short real estate.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+You can't even short sell mortgages.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+You might be able to short mortgage-backed securities (MBS).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+But is there an easier way to trade on Paulson's view?
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.wsj.com/articles/SB120036645057290423
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Credit default swaps
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Credit default swaps (CDS) pay off when an entity defaults.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+CDS is commonly used to insure against default on bonds.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ Similar to fire insurance on your own house.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ If house burns down, insurance contract pays off.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+However, you can still buy CDS without being long a bond.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+One Wall Street specialty during the boom was repackaging mortgage securities
+ into instruments called collateralized debt obligations, or CDOs, then
+ selling slices of these with varying levels of risk.
+\end_layout
+
+\begin_layout Plain Layout
+For buyers of the slices who wanted to insure against the debt going bad,
+ Wall Street offered another instrument, called credit-default swaps.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ Similar to fire insurance on neighbor's house.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Paulson's profits
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Paulson's hedge fund purchased CDS on subprime MBS.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+They also shorted the ABX index and, later, bank stocks.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypertarget{profits}
+\end_layout
+
+\end_inset
+
+How did these bets eventually 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{subprime_default}{turn out}
 \end_layout
 
 \end_inset
@@ -379,7 +1284,598 @@ status open
 \end_layout
 
 \begin_layout Itemize
-How does Hershey avoid passing on volatility to consumers?
+Paulson's hedge fund ended up 
+\begin_inset Formula $\$15$
+\end_inset
+
+ billion in 2007.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ He took home around 
+\begin_inset Formula $\$4$
+\end_inset
+
+ billion himself.
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
+BTW: four billion seconds is over 126 years.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+ARE DERIVATIVES JUST FOR SPECULATION?
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What is a derivative?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{derivative}
+\end_layout
+
+\end_inset
+
+ is a financial instrument whose value is derived from the value of an underlyin
+g asset.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Example:
+\emph default
+ exchange option on two thoroughbreds:
+\begin_inset Formula 
+\[
+\text{Payoff}=\begin{cases}
+\text{Horse }1 & \text{if Horse }1\text{ is better than Horse }2\\
+\text{Horse }2 & \text{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What is a derivative?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{derivative}
+\end_layout
+
+\end_inset
+
+ is a financial instrument whose value is derived from the value of an underlyin
+g asset.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Example:
+\emph default
+ exchange option on two thoroughbreds:
+\begin_inset Formula 
+\[
+\text{Payoff}=\begin{cases}
+\text{Horse }1 & \text{if Horse }1\text{ is better than Horse }2\\
+\text{Horse }2 & \text{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Common types of derivatives
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Forwards
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Futures
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Swaps
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+ Call options
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+
+ Put options
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Common underlying assets
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Stocks.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Commodities.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Currencies.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+ Interest rates.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+
+ Loans.
 \end_layout
 
 \end_deeper
@@ -4999,11 +6495,11 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Hershey chocolate article is in the 
+John Paulson article is in the 
 \begin_inset CommandInset href
 LatexCommand href
 name "Wall Street Journal"
-target "https://www.wsj.com/articles/hershey-pushes-up-prices-but-sales-volume-weakensin-north-america-11564055320"
+target "https://www.wsj.com/articles/SB120036645057290423"
 literal "false"
 
 \end_inset
@@ -5025,11 +6521,46 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Commodity prices from Bloomberg terminal and 
+Gary Gorton article is in the 
 \begin_inset CommandInset href
 LatexCommand href
-name "Bloomberg"
-target "https://www.bloomberg.com/markets/commodities"
+name "Wall Street Journal"
+target "https://www.wsj.com/articles/SB120036645057290423"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Subprime mortgage info from 
+\begin_inset CommandInset href
+LatexCommand href
+name "US government"
+target "https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "NY Fed"
+target "https://www.newyorkfed.org/microeconomics/hhdc/background.html"
 literal "false"
 
 \end_inset
@@ -5071,6 +6602,218 @@ literal "false"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Subprime time
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypertarget{subprime_time}{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/subprime_orig.PNG
+	scale 47.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{intro}{
+\backslash
+beamerbutton{Return}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suprime default rate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypertarget{subprime_default}{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/subprime_default_rate.PNG
+	scale 47.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+ABS index performance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/subprime_default_rate.PNG
+	scale 47.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{profits}{
+\backslash
+beamerbutton{Return}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset

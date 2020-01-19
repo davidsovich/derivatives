@@ -4178,14 +4178,14 @@ begin{pspicture}(-20,-10)(140,70)
 
 
 \backslash
-psline[linewidth=2pt,linecolor=blue](10,0)(45,0)
+psline[linewidth=2pt,linecolor=blue](10,0)(40,0)
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-psline[linewidth=2pt,linecolor=blue](75,0)(110,0)
+psline[linewidth=2pt,linecolor=blue](70,0)(110,0)
 \end_layout
 
 \begin_layout Plain Layout
@@ -4194,14 +4194,14 @@ psline[linewidth=2pt,linecolor=blue](75,0)(110,0)
 \backslash
 rput(10,50){ 
 \backslash
-underline{origination} }
+underline{today} }
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-rput(60,50){ 
+rput(55,50){ 
 \backslash
 underline{tomorrow} }
 \end_layout
@@ -4210,7 +4210,7 @@ underline{tomorrow} }
 
 
 \backslash
-rput(115,50){ 
+rput(110,50){ 
 \backslash
 underline{the future} }  
 \end_layout
@@ -4226,7 +4226,7 @@ rput(0,0){ $F_{0,T}$ }
 
 
 \backslash
-rput(60,0){ $F_{
+rput(55,0){ $F_{
 \backslash
 tau,T}$ }
 \end_layout
@@ -4296,6 +4296,19 @@ The value of your original long forward at date
 \end_layout
 
 \begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 Intuition:
 \end_layout
 
@@ -4323,7 +4336,7 @@ status open
 
 \end_inset
 
- You can lock-in a payoff by shorting a new forward.
+ You can lock-in a riskless payoff by shorting a new forward.
 \end_layout
 
 \begin_layout Itemize
@@ -4349,8 +4362,25 @@ status open
 
 \end_inset
 
- Because the payoff is risk-free, we discount with rate 
-\begin_inset Formula $r$
+ If the forward price increases between dates 
+\begin_inset Formula $0$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau$
+\end_inset
+
+, you can lock-in a riskless loss by longing a new forward.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+You want to exit your position at date 
+\begin_inset Formula $\tau$
+\end_inset
+
+: 
+\begin_inset Formula $0<\tau<T$
 \end_inset
 
 .
@@ -4370,19 +4400,38 @@ status open
 \end_layout
 
 \begin_layout Itemize
+If the forward price at date 
+\begin_inset Formula $\tau$
+\end_inset
+
+ is 
+\begin_inset Formula $F_{\tau,T}$
+\end_inset
+
+, how much does it cost to exit your long forward position?
+\end_layout
+
+\begin_layout Itemize
 \begin_inset Argument item:1
-status open
+status collapsed
 
 \begin_layout Plain Layout
-–
+
 \end_layout
 
 \end_inset
 
- If the forward price has risen, we have made a profit.
+
 \end_layout
 
-\end_deeper
+\begin_layout Itemize
+Equivalently, what is the value of your position at date 
+\begin_inset Formula $\tau$
+\end_inset
+
+?
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -4392,10 +4441,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
 \begin_inset Separator parbreak
 \end_inset
 
@@ -4489,13 +4534,8 @@ This payoff is risk-free.
 \end_layout
 
 \end_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -4552,7 +4592,7 @@ Suppose the spot price of the S&P 500 index is
 
 .
  What is the value of your forward contract at date 
-\begin_inset Formula $\tau=1$
+\begin_inset Formula $T=1$
 \end_inset
 
 ?
