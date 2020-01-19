@@ -164,10 +164,6 @@ Introduction
 
 \end_layout
 
-\begin_layout Subsubsection
-Introduction
-\end_layout
-
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -736,72 +732,6 @@ end{table}
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{figure}
-\end_layout
-
-\begin_layout Plain Layout
-
-PAULSON'S BET AGAINST SUBPRIME
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{figure}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
 Paulson's subprime view
 \end_layout
 
@@ -1242,7 +1172,32 @@ status open
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+hypertarget{profits}
+\end_layout
+
+\end_inset
+
+How did these trades 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{subprime_default}{turn out}
+\end_layout
+
+\end_inset
+
+?
 \end_layout
 
 \begin_layout Itemize
@@ -1308,157 +1263,54 @@ status open
 \end_inset
 
  billion himself.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- BTW: four billion seconds is over 126 years.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Suprime default rate
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/subprime_default_rate.PNG
-	scale 47.5
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-ABX index performance
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward contract}
-\end_layout
-
-\end_inset
-
- is an agreement to buy or sell an asset at a future date at a price specified
- today (called the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward price}
-\end_layout
-
-\end_inset
-
-).
 \begin_inset Note Note
 status open
 
-\begin_layout Plain Layout
-Say forward can be on many different things, such as equity indexes etc.
- Say this is not really a forward.
- Forward is OTC and standardized.
+\begin_layout Itemize
+BTW: four billion seconds is over 126 years.
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Who was on the other side of the trade?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Goldman Sachs marketed the MBS Paulson bet against.
 \end_layout
 
 \begin_layout Itemize
@@ -1474,27 +1326,46 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
+\begin_layout Itemize
+Paulson was actually involved in the structuring – i.e., he picked.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/fwd_prices_medium.PNG
-	scale 47.5
-
-\end_inset
-
 
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+The SEC alleged that Goldman Sachs mislead investors.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Goldman paid 
+\begin_inset Formula $\$550$
+\end_inset
+
+ million to settle and Regulation AB was born.
 \end_layout
 
 \end_deeper
@@ -1503,6 +1374,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Definitions
 \end_layout
 
 \begin_layout Standard
@@ -1544,7 +1419,7 @@ begin{figure}
 
 \begin_layout Plain Layout
 
-ARE DERIVATIVES JUST FOR SPECULATION?
+OKAY LET'S KIND OF GET TO WORK
 \end_layout
 
 \begin_layout Plain Layout
@@ -1610,8 +1485,20 @@ textcolor{kblue}{derivative}
 
 \end_inset
 
- is a financial instrument whose value is derived from the value of an underlyin
-g asset.
+ is a financial instrument whose value is derived from the value of an 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{underlying asset}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -1630,6 +1517,38 @@ status open
 \begin_layout Itemize
 
 \emph on
+Example: 
+\emph default
+credit default swap on subprime MBS.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+But can also be much more exotic.
+\end_layout
+
+\end_inset
+
 Example:
 \emph default
  exchange option on two thoroughbreds:
@@ -1666,390 +1585,7 @@ Example:
 status open
 
 \begin_layout Plain Layout
-What is a derivative?
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{derivative}
-\end_layout
-
-\end_inset
-
- is a financial instrument whose value is derived from the value of an underlyin
-g asset.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-Example:
-\emph default
- exchange option on two thoroughbreds:
-\begin_inset Formula 
-\[
-\text{Payoff}=\begin{cases}
-\text{Horse }1 & \text{if Horse }1\text{ is better than Horse }2\\
-\text{Horse }2 & \text{otherwise}
-\end{cases}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Common types of derivatives
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Forwards
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- Futures
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- Swaps
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-4.
-\end_layout
-
-\end_inset
-
- Call options
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-5.
-\end_layout
-
-\end_inset
-
- Put options
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Common underlying assets
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Stocks.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- Commodities.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- Currencies.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-4.
-\end_layout
-
-\end_inset
-
- Interest rates.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-5.
-\end_layout
-
-\end_inset
-
- Loans.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Hershey's unhedged exposure
+Size of derivatives market is eye-popping
 \end_layout
 
 \end_inset
@@ -2071,535 +1607,17 @@ status open
 
 
 \backslash
-psset{unit=.6mm} 
+renewcommand{
+\backslash
+arraystretch}{1.4}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-color{black} 
+begin{table}[htdp]
 \end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,-40)(0,60) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,0)(115,0) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput{90}(-10,0){ profit $
-\backslash
-to$ }  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(80,-6){ price of cocoa $
-\backslash
-to$}  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{0
-}{75}{-x+35} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cocoa producer's unhedged exposure
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-psset{unit=.6mm} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,-40)(0,60) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,0)(115,0) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput{90}(-10,0){ profit $
-\backslash
-to$ }  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(80,-6){ price of cocoa $
-\backslash
-to$}  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
-0}{55}{x} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Opportunity arises to share risks
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-psset{unit=.6mm} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,-40)(0,60) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,0)(115,0) 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput{90}(-10,0){ profit $
-\backslash
-to$ }  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(80,-6){ price of cocoa $
-\backslash
-to$}  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{0
-}{55}{-x+35} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
-0}{55}{x} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1pt,linestyle=dotted,
-linecolor=gray]{0}{80}{35}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(80,38.5){ certain surplus}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Instrument they use is a forward contract.
- Arises in equilibrium because supply and demand is naturally present.
- It is just at what price? To split this surplus, the cocoa producer and
- Hershey can agree to fix a price today.
- This will fully insure them against cocoa price risk (Long risk transferred
- from producer to Hershey.
- Short risk is transferred from Hershey to producer.).
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains to trade
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The cocoa producer and Hershey can agree to fix a price today.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-This will fully insure them against cocoa price risk.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Long risk transferred from producer to Hershey.
- Short risk is transferred from Hershey to producer.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Q: 
-\series default
-How can Hershey and the cocoa producer
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-A: 
-\series default
-They can enter into a forward contract for cocoa.
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Chocolate and cocoa
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Hershey can lock-in a price for cocoa today.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-This would eliminate their exposure to cocoa prices.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Who would provide Hershey with such insurance?
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Someone with the opposite exposure to cocoa as Hershey.
-\begin_inset ERT
-status open
 
 \begin_layout Plain Layout
 
@@ -2612,161 +1630,22 @@ begin{center}
 
 
 \backslash
-psset{unit=.6mm}
+begin{tabular}{ccc}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-color{black}
+hline
 \end_layout
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-% FIGURECOORDINATES(X1,Y1)(X2,Y2)
-\end_layout
-
-\begin_layout Plain Layout
-
+Product & Market size & Year	
+\backslash
 
 \backslash
-begin{pspicture}(-20,-50)(140,70)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% LINE
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=2pt,linecolor=blue](10,20)(110,20)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% TIME LABELS
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,40){ 
-\backslash
-underline{origination} }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,40){ 
-\backslash
-underline{expiration} } 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,20){ $t$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,20){ $T$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% PRICE LABELS
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,0){ $
-\backslash
-bullet$ $S_{t}$ spot.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,-10){ $
-\backslash
-bullet$ $F_{t,T}$ set.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(7.5,-20){ $
-\backslash
-bullet$ $
-\backslash
-$0$ exchanged.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(95,0){ $
-\backslash
-bullet$ $S_{T}$ spot.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(116.5,-10){ $
-\backslash
-bullet$ $X_{T} = S_{T} - F_{t,T}$ to long.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,-20){ $
-\backslash
-bullet$ $-X_{T} = F_{t,T}-S_{T}$ to short.
- }
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2774,7 +1653,120 @@ bullet$ $-X_{T} = F_{t,T}-S_{T}$ to short.
 
 
 \backslash
-end{pspicture}
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+U.S.
+ equities & 
+\backslash
+$20 trillion & 2011 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Corporate debt & 
+\backslash
+$10 trillion & 2011  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+U.S.
+ government debt & 
+\backslash
+$18 trillion & 2011 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Household debt & 
+\backslash
+$9 trillion & 2011 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+U.S.
+ Gross domestic product & 
+\backslash
+$15 trillion & 2011 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Over-the-counter swaps} & 
+\backslash
+textbf{
+\backslash
+$600 trillion} & 
+\backslash
+textbf{2011} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{All derivatives} & 
+\backslash
+textbf{$>$ 
+\backslash
+$1 quadrillion} & 
+\backslash
+textbf{2011} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2784,99 +1776,16 @@ end{pspicture}
 end{center}
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Basic idea behind forward contract
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Hershey and the producer can lock-in a price for cocoa.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
 \begin_layout Plain Layout
 
+
+\backslash
+end{table}
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-This will fully insure both of them against cocoa price risk.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Moreover, Hershey can keep chocolate bar prices stable.
 \end_layout
 
 \end_deeper
@@ -2899,7 +1808,7 @@ Moreover, Hershey can keep chocolate bar prices stable.
 status open
 
 \begin_layout Plain Layout
-Roadmap: forward contracts
+Two main uses of derivatives
 \end_layout
 
 \end_inset
@@ -2917,18 +1826,89 @@ Roadmap: forward contracts
 status open
 
 \begin_layout Plain Layout
-
-\series bold
 1.
 \end_layout
 
 \end_inset
 
- 
-\series bold
-Definitions and payoffs
+ Speculation and investment:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Naked positions or alpha porting.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ Derivatives can be used to express a specific view.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Paulson example.
+ Also can sturcutre payoffs using financial engineering.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ Derivatives provide leverage.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 \begin_inset Argument item:1
 status open
@@ -2952,345 +1932,7 @@ status open
 
 \end_inset
 
- Basic risk management
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- Interest rates
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-4.
-\end_layout
-
-\end_inset
-
- Summary
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Definitions and payoffs
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Forward contracts
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward contract}
-\end_layout
-
-\end_inset
-
- is an agreement to buy or sell an asset at a future date at a price specified
- today (called the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward price}
-\end_layout
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psset{unit=.6mm}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% FIGURECOORDINATES(X1,Y1)(X2,Y2)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-25)(140,25)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% LINE
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=2pt,linecolor=blue](10,0)(110,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% TIME LABELS
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,20){ origination }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,20){ expiration } 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,0){ $t$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,0){ $T$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Forward contracts
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward contract}
-\end_layout
-
-\end_inset
-
- is an agreement to buy or sell an asset at a future date at a price specified
- today (called the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward price}
-\end_layout
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-A forward contract has two counterpaties:
+ Risk-sharing and hedging:
 \end_layout
 
 \begin_deeper
@@ -3312,24 +1954,12 @@ status open
 status open
 
 \begin_layout Plain Layout
-
-\series bold
 –
 \end_layout
 
 \end_inset
 
- The buyer (long) is obligated to pay the forward price.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-She profits if prices rise between now and the future.
-\end_layout
-
-\end_inset
-
-
+ Transfer risks to agents most willing to hold it.
 \end_layout
 
 \begin_layout Itemize
@@ -3350,65 +1980,24 @@ status open
 status open
 
 \begin_layout Plain Layout
-
-\series bold
 –
 \end_layout
 
 \end_inset
 
- The seller (short) is obligated to sell at the forward price.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-She profits if prices fall between now and the future.
-\end_layout
-
-\end_inset
-
-
+ Sixty percent of non-financial firms use derivatives.
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Typically, no money is exchanged when the contract is initiated.
- Contracts are usually cash-settled on the expiration date.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-It is a fair trade between consenting parties.
- Not physically settled.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
 
 
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
 
@@ -3420,7 +2009,7 @@ It is a fair trade between consenting parties.
 status open
 
 \begin_layout Plain Layout
-Forward contracts (sort of)
+Investing in commodities
 \end_layout
 
 \end_inset
@@ -3433,184 +2022,23 @@ Forward contracts (sort of)
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/fwd_prices_in_action.PNG
-	scale 57.5
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+Early 2000s: investing in commodities became a popular idea.
 \begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Price is for quoted units.
- Note the contract expiration.
- https://www.bloomberg.com/markets/commodities
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Forward contracts (sort of)
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Plain Layout
-\align center
-\begin_inset Float figure
-wide false
-sideways false
 status collapsed
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/fwd_prices_in_action.PNG
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-https://www.bloomberg.com/markets/commodities
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Forward contracts
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward contract}
-\end_layout
-
-\end_inset
-
- is an agreement to buy or sell an asset at a future date at a price specified
- today (called the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{forward price}
-\end_layout
-
-\end_inset
-
-).
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Say forward can be on many different things, such as equity indexes etc.
- Say this is not really a forward.
- Forward is OTC and standardized.
+In addition, it was thought to be welfare improving.
+ Tang and Xionag (2012): After the equity market collapsed in 2000, many
+ institutions considered commodities a new asset class after the widely
+ publicized discovery of a negative correlation between commodity returns
+ and stock returns by Greer (2000), Gorton and Rouwenhorst (2006), and Erb
+ and Harvey (2006).
+ As a result, billions of investment dollars flowed into commodity markets
+ from financial institutions, insurance companies, pension funds, foundations,
+ hedge funds, and wealthy individuals.
+ The large index investment flow appreciated a fundamental process of financiali
+zation among commodity markets – the focus of our analysis.
 \end_layout
 
 \end_inset
@@ -3631,6 +2059,211 @@ status open
 
 \end_layout
 
+\begin_layout Itemize
+Idea driven by diversification motives, not speculation.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Sellers actually wanted it to improve liquidity and to give up the short
+ premium.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Problem is that investing in a physical commodity is difficult.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Need to store and buy farm etc.
+ Most regulations prevent insurance cmpany from doing so!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Investing in a diversified basket of commodities even worse.
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
+How did investors achieve their desired exposures?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Commodity index investment
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Banks came up with a solution: commodity index funds.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Idea was to use technique called 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{financial engineering}
+\end_layout
+
+\end_inset
+
+ to replicate physical commodities using futures and bonds.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Markets for bonds and futures were already active and liquid.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This allowed funds to cheaply replicate baskets of commodities.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Commodity index investment grew from $13 billion in 2003 to $260 billion
+ in 2008
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 \align center
 \begin_inset Float figure
@@ -3641,7 +2274,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/fwd_prices_medium.PNG
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/cit.PNG
 	scale 47.5
 
 \end_inset
@@ -3674,151 +2307,35 @@ status open
 status open
 
 \begin_layout Plain Layout
-Forward contract details
+No shame in my game
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Every forward contract has a buyer and a seller:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-–
-\end_layout
-
-\end_inset
-
- Buyer (long) is obligated to pay the forward price.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-She profits if prices rise between now and the future.
-\end_layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/me.PNG
+	scale 50
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-–
-\end_layout
-
-\end_inset
-
- Seller (short) is obligated to sell at the forward price.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-She profits if prices fall between now and the future.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Typically, no money is exchanged when the contract is initiated.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-It is a fair trade between consenting parties.
- A forward contract with a non-zero value at initiation is called an off-market
- forward.
- We will talk about these in the next lecture.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Contracts are usually cash-settled on the expiration date.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Not physically settled.
- Instead of settling by actual delivery of the underlying asset, the contract
- calls for a cash payment that equals the profit or loss as if the contract
- were settled by delivery of the underlying asset and hedged in the spot
- market.
 \end_layout
 
 \end_inset
@@ -3846,9 +2363,13 @@ Not physically settled.
 status open
 
 \begin_layout Plain Layout
-Contract payoffs
+A word of caution
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3856,25 +2377,29 @@ Contract payoffs
 
 \begin_deeper
 \begin_layout Itemize
-The 
-\begin_inset ERT
+Derivatives can reduce risks when used as insurance.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
 status open
 
 \begin_layout Plain Layout
 
-
-\backslash
-textcolor{kblue}{payoff}
 \end_layout
 
 \end_inset
 
- to a derivative is its cash flow or value at expiration.
+
+\end_layout
+
+\begin_layout Itemize
+This improves overall economic welfare.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-It is the terminal value of the position.
+by allocating risks across agents to those who can bear the risk best.
 \end_layout
 
 \end_inset
@@ -3896,72 +2421,61 @@ status open
 \end_layout
 
 \begin_layout Itemize
-The payoff to a long forward contract is: 
-\begin_inset Formula 
-\[
-X_{T}=S_{T}-F_{t,T}
-\]
+But they can also increase risks and erode financial stability.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
- where:
+
+\end_layout
+
+\begin_layout Itemize
+This brings us back to the financial crisis and to AIG...
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The AIG CDS machine
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Formula $T$
-\end_inset
-
- = expiration date in years (
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypertarget{contract_payoffs}{}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperlink{time_line}{timeline}
-\end_layout
-
-\end_inset
-
-).
+AIG is an insurance company with limited oversight.
 \end_layout
 
 \begin_layout Itemize
@@ -3978,6 +2492,10 @@ status open
 \end_layout
 
 \begin_layout Itemize
+AIG wrote billions in MBS CDS leading up to the financial crisis.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset Argument item:1
 status open
 
@@ -3987,56 +2505,18 @@ status open
 
 \end_inset
 
- 
-\begin_inset Formula $t$
-\end_inset
 
- = origination date (usually 
-\begin_inset Formula $t=0$
-\end_inset
+\end_layout
 
- or 
+\begin_layout Itemize
+Data and models suggested these were 
 \begin_inset Quotes eld
 \end_inset
 
-today
+free money
 \begin_inset Quotes erd
 \end_inset
 
-).
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Formula $S_{T}=$
-\end_inset
-
- price of the underlying asset at date 
-\begin_inset Formula $T$
-\end_inset
-
 .
 \end_layout
 
@@ -4054,177 +2534,9 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
+Customers purchasing CDS were major financial institutions.
 \end_layout
 
-\end_inset
-
- 
-\begin_inset Formula $F_{t,T}=$
-\end_inset
-
- forward price agreed upon at date 
-\begin_inset Formula $t$
-\end_inset
-
- for date 
-\begin_inset Formula $T$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-Today's spot price of cocoa is 
-\begin_inset Formula $S_{0}=\$2,500$
-\end_inset
-
- per ton.
- The one-year forward price for cocoa is 
-\begin_inset Formula $F_{0,1}=\$2,750$
-\end_inset
-
-.
- A buyer and seller agree to enter a forward contract for one ton of cocoa.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Assume the future spot price is 
-\begin_inset Formula $S_{1}=\$2,600$
-\end_inset
-
-.
- Calculate the payoff to the long and short parties.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- Plot a payoff diagram for the long forward.
- What is the minimum and maximum payoff?
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- Plot a payoff diagram for the short forward.
- What is the minimum and maximum payoff?
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -4245,307 +2557,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #1 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- The payoff to the long party is:
-\begin_inset Formula 
-\[
-\begin{aligned}X_{1} & =S_{1}-F_{0,1}\\
- & =2,600-2,750\\
- & =-150
-\end{aligned}
-\]
-
-\end_inset
-
- The payoff to the short party is:
-\begin_inset Formula 
-\[
-\begin{aligned}-X_{1} & =F_{0,1}-S_{1}\\
- & =150
-\end{aligned}
-\]
-
-\end_inset
-
- No money is exchanged hands on the origination date.
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #1 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Plain Layout
-\align center
-\begin_inset Note Note
-status open
-
-\begin_layout Itemize
-The minimum payoff to the long party is 
-\begin_inset Formula $0-F_{0,1}=-2,750.$
-\end_inset
-
- If 
-\begin_inset Formula $S_{1}$
-\end_inset
-
- is unbounded above, the maximum payoff is 
-\begin_inset Formula $+\infty$
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/pp1a.pdf
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #1 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Plain Layout
-\align center
-\begin_inset Note Note
-status open
-
-\begin_layout Itemize
-If 
-\begin_inset Formula $S_{1}$
-\end_inset
-
- is unbounded above, the minimum payoff to the short party is 
-\begin_inset Formula $-\infty$
-\end_inset
-
-.
- The maximum payoff is 
-\begin_inset Formula $F_{0,1}-0=2,750$
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/pp1b.pdf
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Roadmap: the basics of forward contracts
+CDS collateral requirements
 \end_layout
 
 \end_inset
@@ -4559,16 +2571,7 @@ Roadmap: the basics of forward contracts
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Definitions and payoffs
+CDS contracts require collateral from the seller and the buyer.
 \end_layout
 
 \begin_layout Itemize
@@ -4585,20 +2588,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-2.
-\end_layout
-
-\end_inset
-
- 
-\series bold
-Basic risk management
+If the market moves against you, you must post more collateral.
 \end_layout
 
 \begin_layout Itemize
@@ -4615,16 +2605,8 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- Interest rates
+As the U.S.
+ housing market deteriorated, MBS values soured.
 \end_layout
 
 \begin_layout Itemize
@@ -4641,16 +2623,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-4.
-\end_layout
-
-\end_inset
-
- Summary
+AIG took a $100 billion loss in 2008 due to CDS write-downs.
 \end_layout
 
 \end_deeper
@@ -4661,15 +2634,7 @@ status open
 
 \end_layout
 
-\begin_layout Subsection
-Basic risk management
-\end_layout
-
 \begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
 \begin_inset Separator parbreak
 \end_inset
 
@@ -4681,93 +2646,7 @@ status collapsed
 status open
 
 \begin_layout Plain Layout
-Forward contract insures both parties
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Hershey has a natural short position in cocoa.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Cocoa producer has a natural long position in cocoa.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Forward contract insures both parties against cocoa price risk.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Risk sharing reduces profit volatility for both parties.
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Hershey's hedged exposure
+A run on AIG
 \end_layout
 
 \end_inset
@@ -4780,8 +2659,75 @@ Hershey's hedged exposure
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\align center
+\begin_layout Itemize
+AIG's losses sparked a run on the company's assets.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Losses caused counterparties to demand collateral from AIG.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Demand for collateral caused AIG to sell assets.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Lack of assets caused lenders to cut-off credit to AIG.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -4789,243 +2735,12 @@ status open
 
 
 \backslash
-psset{unit=.6mm} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70) 
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% GRAPH1
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(15,40){ original exposure}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,-20)(0,30)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,0)(35,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{0
-}{35}{-x+20}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% GRAPH2
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(42.5,40){+}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(67.5,40){ long forward }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](50,-20)(50,30)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](50,0)(85,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
-50}{85}{x - 50 - 10}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% GRAPH3
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(92.5,40){ = }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,40){ hedged position }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](100,-20)(100,30)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](100,0)(135,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=violet
-]{100}{135}{10}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput{90}(-10,0){ chocolate profit $
-\backslash
-to$ } 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(10,-40){ price of cocoa $
-\backslash
-to$} 
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% FWD VERTICAL
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=.6pt,linestyle=dotted,linecolor=gray](60,-25)(60,20)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(60,-30){$F_t(T)$} % right of the baseline at (50,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
+hypertarget{aig}{}
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Cocoa producer's hedged exposure
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
+And so on until AIG was on the verge of 
 \begin_inset ERT
 status open
 
@@ -5033,362 +2748,14 @@ status open
 
 
 \backslash
-psset{unit=.6mm} 
+hyperlink{aig_price}{insolvency}
 \end_layout
 
-\begin_layout Plain Layout
-
-
-\backslash
-color{black} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70) 
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% GRAPH1
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(15,40){ original exposure}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,-20)(0,30)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](0,0)(35,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=blue]{
-0}{30}{x}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% GRAPH2
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(42.5,40){+}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(67.5,40){ short forward }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](50,-20)(50,30)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](50,0)(85,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=red]{5
-0}{78}{-x + 50 + 10}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% GRAPH3
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(92.5,40){ = }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,40){ hedged position }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](100,-20)(100,30)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=1pt,linecolor=black](100,0)(135,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psplot[algebraic,plotpoints=1000,yMaxValue=1000, linewidth=1.5pt,linecolor=violet
-]{100}{135}{10}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput{90}(-10,0){ cocoa profit $
-\backslash
-to$ } 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(10,-40){ price of cocoa $
-\backslash
-to$} 
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% FWD VERTICAL
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=.6pt,linestyle=dotted,linecolor=gray](60,-25)(60,20)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(60,-30){$F_t(T)$} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(145,10){$F_t(T)$}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- A farmer is planning to grow one ton of cocoa.
- She will sell her crop one year from today.
- The cost of producing cocoa is 
-\begin_inset Formula $S_{0}=\$2,300$
-\end_inset
-
- per ton, payable in one year.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Is the farmer long or short cocoa? Plot the farmer's unhedged profit as
- a function of 
-\begin_inset Formula $S_{1}$
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- The one-year forward price is 
-\begin_inset Formula $F_{0,1}=\$2,600$
-\end_inset
-
-.
- Plot the payoff diagram of the long forward contract.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- How should the farmer hedge using forwards? What is her hedged profit if
- 
-\begin_inset Formula $S_{1}=\$2,000$
-\end_inset
-
-? 
-\begin_inset Formula $S_{1}=\$2,600?$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -5409,61 +2776,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Roadmap: the basics of forward contracts
+Was AIG a bad actor?
 \end_layout
 
 \end_inset
@@ -5477,234 +2790,7 @@ Roadmap: the basics of forward contracts
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Definitions and payoffs
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- Basic risk management
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-3.
-\end_layout
-
-\end_inset
-
- 
-\series bold
-Interest rates
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-4.
-\end_layout
-
-\end_inset
-
- Summary
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Interest rates
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Technical note on interest rates
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Throughout the semester, we will assume there is a single continuously compounde
-d (c.c.) risk-free interest rate of 
-\begin_inset Formula $r$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Discounting risk-free cash flows using c.c: 
-\begin_inset Formula 
-\[
-\text{PV}_{t}(\$1)=e^{-r(T-t)}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Converting 
-\begin_inset Formula $n$
-\end_inset
-
--times per annum compounded rate 
-\begin_inset Formula $r^{*}$
-\end_inset
-
- to c.c.
- rate:
-\begin_inset Formula 
-\[
-r=n\cdot\log\left(1+\frac{r^{*}}{n}\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem
-\end_layout
-
-\end_inset
-
-
+AIG received a massive bailout from taxpayers:
 \end_layout
 
 \begin_deeper
@@ -5718,280 +2804,50 @@ status open
 
 \end_inset
 
-The c.c.
- risk-free interest rate is 
-\begin_inset Formula $r=0.05$
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
 \end_inset
 
-.
- What is the price of a risk-free zero-coupon bond that pays 
-\begin_inset Formula $\$100$
+ Fed loaned AIG $85 billion against insurance assets.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
- in five years?
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ U.S.
+ government injected $185 billion into company.
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- The price of a risk-free zero-coupon bond that pays 
-\begin_inset Formula $\$500$
-\end_inset
-
- in ten years is 
-\begin_inset Formula $\$400$
-\end_inset
-
-.
- What is the c.c.
- risk-free interest rate?
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- The semi-annually compounded risk-free rate is 
-\begin_inset Formula $0.10$
-\end_inset
-
-.
- What is the equivalent continuously compounded risk-free rate?
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem scratch paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #3
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- Suppose the 
-\bar under
-discretely compounded
-\bar default
- risk-free rate is 
-\begin_inset Formula $r=0.05$
-\end_inset
-
- and today is date 
-\begin_inset Formula $t=0$
-\end_inset
-
-.
- Compute the prices of the following:
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 \begin_inset Argument item:1
 status open
@@ -6006,24 +2862,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- A risk-free security that pays 
-\begin_inset Formula $\$1$
-\end_inset
-
- at date 
-\begin_inset Formula $T=1$
-\end_inset
-
-.
+The public was not happy, but it was necessary to avert catastrophe.
 \end_layout
 
 \begin_layout Itemize
@@ -6040,431 +2879,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- A risk-free zero-coupon bond with a face value of 
-\begin_inset Formula $\$100$
-\end_inset
-
- and maturity of 
-\begin_inset Formula $T=5$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- A 
-\begin_inset Formula $T=3$
-\end_inset
-
- year risk-free coupon bond with annual coupons of 
-\begin_inset Formula $\$5$
-\end_inset
-
- and face value of 
-\begin_inset Formula $\$100$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #3 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- The price is 
-\begin_inset Formula $\$1\cdot(1+0.05)^{-1}=\$0.952$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- The price is 
-\begin_inset Formula $\$100\cdot(1+0.05)^{-5}=\$78.353$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- The price is 
-\begin_inset Formula $\sum_{i=1}^{3}5\cdot(1+0.05)^{-i}+\$100\cdot(1+0.05)^{-3}=\$100$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #4 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- The price is 
-\begin_inset Formula $\$1\cdot e^{-0.05}=\$0.951$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- The price is 
-\begin_inset Formula $\$100\cdot e^{-0.05\cdot5}=\$77.88$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- The price is 
-\begin_inset Formula $\sum_{i=1}^{3}5\cdot e^{-0.05\cdot i}+\$100\cdot e^{-0.05\cdot3}=\$99.43$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Roadmap: the basics of forward contracts
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Definitions and payoffs
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- Basic risk management
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-3.
-\end_layout
-
-\end_inset
-
- Interest rates
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-4.
-\end_layout
-
-\end_inset
-
- 
-\series bold
-Summary
+Interestingly, taxpayers eventually made a lot of money on this deal!
 \end_layout
 
 \end_deeper
@@ -6508,8 +2923,8 @@ Summary
 
 \begin_deeper
 \begin_layout Itemize
-A forward contract is an agreement to buy or sell an asset at a future date
- at the forward price.
+A derivative is a financial instrument whose value is derived from the value
+ of an underlying asset.
 \end_layout
 
 \begin_layout Itemize
@@ -6526,23 +2941,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Date 
-\begin_inset Formula $T$
-\end_inset
-
- payoff of long forward originated at date 
-\begin_inset Formula $0$
-\end_inset
-
-:
-\begin_inset Formula 
-\[
-X_{T}=S_{T}-F_{0,T}.
-\]
-
-\end_inset
-
-
+Derivatives used for investments and risk management.
 \end_layout
 
 \begin_layout Itemize
@@ -6559,7 +2958,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Forwards can be used to hedge input and output price risk.
+Size of derivatives market is absolutely enormous.
 \end_layout
 
 \begin_layout Itemize
@@ -6576,23 +2975,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Date 
-\begin_inset Formula $0$
-\end_inset
-
- price of risk-free 
-\begin_inset Formula $\$1$
-\end_inset
-
- payoff at date 
-\begin_inset Formula $T$
-\end_inset
-
- is 
-\begin_inset Formula $e^{-rT}$
-\end_inset
-
-.
+Be careful with derivatives: even hedges can be risky!
 \end_layout
 
 \end_deeper
@@ -6629,7 +3012,7 @@ References
 
 \begin_deeper
 \begin_layout Itemize
-Textbook chapters 2.1, 4.1, 4.2, and appendix B.2.
+Textbook chapter 1.
 \end_layout
 
 \begin_layout Itemize
@@ -6672,11 +3055,11 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Gary Gorton article is in the 
+My paper is in 
 \begin_inset CommandInset href
 LatexCommand href
-name "Wall Street Journal"
-target "https://www.wsj.com/articles/SB120036645057290423"
+name "The Review of Financial Studies"
+target "https://academic.oup.com/rfs/article/32/9/3461/5232702"
 literal "false"
 
 \end_inset
@@ -6698,20 +3081,11 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Subprime mortgage info from 
+Gary Gorton article is in the 
 \begin_inset CommandInset href
 LatexCommand href
-name "US government"
-target "https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf"
-literal "false"
-
-\end_inset
-
- and 
-\begin_inset CommandInset href
-LatexCommand href
-name "NY Fed"
-target "https://www.newyorkfed.org/microeconomics/hhdc/background.html"
+name "Wall Street Journal"
+target "https://www.wsj.com/articles/SB120036645057290423"
 literal "false"
 
 \end_inset
@@ -6760,19 +3134,12 @@ literal "false"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Subprime time
+Subprime time!
 \end_layout
 
 \end_inset
@@ -6852,13 +3219,9 @@ beamerbutton{Return}}
 status open
 
 \begin_layout Plain Layout
-Cocoa spot price
+Suprime default rate
 \end_layout
 
-\end_inset
-
-
-\begin_inset Separator latexpar
 \end_inset
 
 
@@ -6874,7 +3237,7 @@ status open
 
 
 \backslash
-hypertarget{cocoa_price}{}
+hypertarget{subprime_default}{}
 \end_layout
 
 \end_inset
@@ -6883,13 +3246,117 @@ hypertarget{cocoa_price}{}
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/cocoa1.PNG
-	scale 27.5
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/subprime_default_rate.PNG
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Number of new foreclosure filings
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/foreclosures`1.PNG
+	scale 42.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+KBW bank index performance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/kbw2.PNG
+	scale 42.5
 
 \end_inset
 
@@ -6906,7 +3373,7 @@ status open
 
 
 \backslash
-hyperlink{intro}{
+hyperlink{profits}{
 \backslash
 beamerbutton{Return}}
 \end_layout
@@ -6936,7 +3403,7 @@ beamerbutton{Return}}
 status open
 
 \begin_layout Plain Layout
-Timeline
+AIG stock price
 \end_layout
 
 \end_inset
@@ -6949,11 +3416,34 @@ Timeline
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
+\begin_layout Standard
+\align center
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
+
+
+\backslash
+hypertarget{aig_price}{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_1/aig3.PNG
+	scale 42.5
+
+\end_inset
+
 
 \end_layout
 
@@ -6967,214 +3457,9 @@ status open
 
 
 \backslash
-hypertarget{time_line}{}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperlink{contract_payoffs}{
+hyperlink{aig}{
 \backslash
 beamerbutton{Return}}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psset{unit=.6mm}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% FIGURECOORDINATES(X1,Y1)(X2,Y2)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% LINE
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=2pt,linecolor=blue](10,20)(110,20)
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% TIME LABELS
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,40){ 
-\backslash
-underline{origination} }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,40){ 
-\backslash
-underline{expiration} } 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,20){ $t$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,20){ $T$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% PRICE LABELS
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,0){ $
-\backslash
-bullet$ $S_{t}$ spot.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,-10){ $
-\backslash
-bullet$ $F_{t,T}$ set.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(7.5,-20){ $
-\backslash
-bullet$ $
-\backslash
-$0$ exchanged.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(95,0){ $
-\backslash
-bullet$ $S_{T}$ spot.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(116.5,-10){ $
-\backslash
-bullet$ $X_{T} = S_{T} - F_{t,T}$ to long.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,-20){ $
-\backslash
-bullet$ $-X_{T} = F_{t,T}-S_{T}$ to short.
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
