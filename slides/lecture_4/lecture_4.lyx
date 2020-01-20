@@ -208,7 +208,7 @@ status open
 
 \end_inset
 
- Forward price with frictions
+ Frictions
 \end_layout
 
 \begin_layout Standard
@@ -269,7 +269,7 @@ Spring 2020
 status open
 
 \begin_layout Plain Layout
-What assumptions did we make?
+What assumptions have we made so far?
 \end_layout
 
 \end_inset
@@ -279,34 +279,7 @@ What assumptions did we make?
 
 \begin_deeper
 \begin_layout Itemize
-What happens if we relax the following assumptions?
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-1.
-\end_layout
-
-\end_inset
-
- Zero cost of storage.
+Zero cost of storage.
 \end_layout
 
 \begin_deeper
@@ -328,7 +301,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-a.
+–
 \end_layout
 
 \end_inset
@@ -354,12 +327,12 @@ status open
 status open
 
 \begin_layout Plain Layout
-b.
+–
 \end_layout
 
 \end_inset
 
- Commodity: no storage cost.
+ Commodity: no physical storage costs.
 \end_layout
 
 \end_deeper
@@ -377,16 +350,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-2.
-\end_layout
-
-\end_inset
-
- Investor can short the underlying.
+Investor can short the underlying.
 \end_layout
 
 \begin_layout Itemize
@@ -403,19 +367,26 @@ status open
 \end_layout
 
 \begin_layout Itemize
+Investment asset – i.e., no production.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset Argument item:1
 status open
 
 \begin_layout Plain Layout
-3.
+
 \end_layout
 
 \end_inset
 
- Investment asset, no transaction costs, borrowing rate, ...
+
 \end_layout
 
-\end_deeper
+\begin_layout Itemize
+No transactions costs, can borrow at risk-free rate, ...
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -436,7 +407,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Picture of S&P dividend yield here
+What happens if we introduce frictions?
 \end_layout
 
 \end_inset
@@ -451,74 +422,20 @@ Picture of S&P dividend yield here
 \begin_deeper
 \begin_layout Standard
 \align center
-\begin_inset ERT
-status open
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/sp500_div_yield_1.PNG
+	scale 27.5
+
+\end_inset
 
 
-\backslash
-psset{unit=.6mm} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=2pt,linecolor=blue](10,0)(110,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(10,50){ 
-\backslash
-underline{today} }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(110,50){ 
-\backslash
-underline{the future} }  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,0){ $V_t$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,0){ $V_T$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
 \end_layout
 
 \end_inset
@@ -535,18 +452,10 @@ end{pspicture}
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-No-arbitrage and the LoP
 \end_layout
 
 \begin_layout Frame
@@ -554,7 +463,7 @@ No-arbitrage and the LoP
 status open
 
 \begin_layout Plain Layout
-Roadmap: forward pricing with frictions
+Roadmap: the forward price with frictions
 \end_layout
 
 \end_inset
@@ -581,7 +490,7 @@ status open
 
  
 \series bold
-No-arbitrage and the law of one price
+Dividends.
 \end_layout
 
 \begin_layout Itemize
@@ -607,7 +516,7 @@ status open
 
 \end_inset
 
- Deriving the no-arbitrage forward price.
+ Commodity storage and convenience.
 \end_layout
 
 \begin_layout Itemize
@@ -633,33 +542,7 @@ status open
 
 \end_inset
 
- Value of off-market forwards.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-4.
-\end_layout
-
-\end_inset
-
- Summary
+ Limits to arbitrage.
 \end_layout
 
 \end_deeper
@@ -675,6 +558,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Dividends
 \end_layout
 
 \begin_layout Standard
@@ -696,7 +583,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Arbitrage
+Dividends
 \end_layout
 
 \end_inset
@@ -710,20 +597,7 @@ Arbitrage
 
 \begin_deeper
 \begin_layout Itemize
-A 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textcolor{kblue}{portfolio}
-\end_layout
-
-\end_inset
-
- is a combination of securities.
+Financial assets (e.g., stocks) commonly pay dividends.
 \end_layout
 
 \begin_layout Itemize
@@ -740,30 +614,159 @@ status open
 \end_layout
 
 \begin_layout Itemize
-An 
-\begin_inset ERT
+Let 
+\begin_inset Formula $d>0$
+\end_inset
+
+ be the dividend paid on a stock at time 
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
 status open
 
 \begin_layout Plain Layout
 
-
-\backslash
-textcolor{kblue}{arbitrage}
 \end_layout
 
 \end_inset
 
- is a portfolio that either:
-\begin_inset Note Note
-status open
+
+\end_layout
 
 \begin_layout Itemize
-An arbitrage is a riskless profit – i.e., free money.
+Will the dividend increase or decrease the forward price?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+Think about the forward price decomposition: 
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}+\text{cost of carry}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Not-so replicating portfolio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dividends do not affect the payoff to a long forward:
+\begin_inset Formula 
+\[
+X_{T}=S_{T}-F_{0,T}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Stock payoff now includes dividend (price is ex-dividend):
+\begin_inset Formula 
+\[
+S_{T}+d.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Leveraged stock portfolio no longer replicates forward:
+\begin_inset Formula 
+\[
+\left(S_{T}+d\right)-F_{0,T}>S_{T}-F_{0,T}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Downward adjusted replicating portfolio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Form the following portfolio at date 
+\begin_inset Formula $0$
+\end_inset
+
+:
 \end_layout
 
 \begin_deeper
@@ -790,8 +793,7 @@ status open
 
 \end_inset
 
- Costs nothing today, never yields negative cash flows, and sometimes yields
- positive cash flows or
+ Long one share of stock.
 \end_layout
 
 \begin_layout Itemize
@@ -817,8 +819,277 @@ status open
 
 \end_inset
 
- Costs a negative amount today (i.e., you get paid to buy it) and never yields
- negative cash flows.
+ Short a risk-free bond with face-value 
+\begin_inset Formula $F_{0,T}+d$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The payoff to this portfolio at date 
+\begin_inset Formula $T$
+\end_inset
+
+ is: 
+\begin_inset Formula 
+\[
+\begin{aligned}Y_{T} & =\left(S_{T}+d\right)-\left(F_{0,T}+d\right)\\
+ & =S_{T}-F_{0,T}.
+\end{aligned}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is the same payoff as the long forward!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The forward price with a dividend
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Apply LoP: value of forward today=value of replicating portfolio.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Value of forward today is zero by construction:
+\begin_inset Formula 
+\[
+X_{0}=0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Value of long stock, short bond portfolio today is: 
+\begin_inset Formula 
+\[
+Y_{0}=S_{0}-\left(F_{0,T}+d\right)e^{-rT}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equating 
+\begin_inset Formula $X_{0}=Y_{0}$
+\end_inset
+
+ and solving for the forward price yields: 
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}e^{rT}-d.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The price of AAPL stock is 
+\begin_inset Formula $\$300$
+\end_inset
+
+ per share.
+ Apple has comitted with certainty to make a 
+\begin_inset Formula $\$5$
+\end_inset
+
+ divided payment per share in 6 months.
+ The c.c.
+ risk-free rate is one percent.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ What is the six-month forward price of AAPL stock?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Is there an arbitrage if 
+\begin_inset Formula $F_{0,0.5}=\$310$
+\end_inset
+
+? If so, construct a portfolio to capitalize upon it.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Is there an arbitrage if 
+\begin_inset Formula $F_{0,0.5}=\$290$
+\end_inset
+
+? If so, construct a portfolio to capitalize upon it.
 \end_layout
 
 \end_deeper
@@ -842,7 +1113,61 @@ status open
 status open
 
 \begin_layout Plain Layout
-Arbitrage with no uncertainty
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cost of carry with dividends
 \end_layout
 
 \end_inset
@@ -852,11 +1177,595 @@ Arbitrage with no uncertainty
 
 \begin_deeper
 \begin_layout Itemize
-Let 
-\begin_inset Formula $V_{t}$
+The asset holder enjoys the dividend while the forward does not.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
- denote the price of a portfolio today.
+
+\end_layout
+
+\begin_layout Itemize
+Thus, forward must be price-compensated for deferred purchase.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Another way to say this is dividends reduce the cost of carry:
+\begin_inset Formula 
+\[
+\text{cost of carry}=S_{0}\left(e^{rT}-1\right)-d.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Forward curve is up (down) sloping if interest > (<) dividends.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+E-mini forward curve (01/15/19)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/emini_19_1.PNG
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Notice the upward slope.
+ Now let us look at the dividends.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+S&P 500 dividend yield vs one year LIBOR
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/sp500_libor_0119.png
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Notice the upward slope.
+ Now let us look at the dividends.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+E-mini forward curve (01/15/2010)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/emini_jan1510.PNG
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Notice the upward slope.
+ Now let us look at the dividends.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+S&P 500 dividend yield vs one year LIBOR
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/sp500_libor_0110.png
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Notice the upward slope.
+ Now let us look at the dividends.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+General formulas for dividends
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For an asset with dividends 
+\begin_inset Formula $\{d_{1},d_{2},...,d_{n}\}$
+\end_inset
+
+ at dates 
+\begin_inset Formula $\{t_{1},t_{2},...,t_{n}\}$
+\end_inset
+
+ such that 
+\begin_inset Formula $0\leq t_{1}\leq...\leq t_{n}\leq T$
+\end_inset
+
+, the no-arbitrage forward price is:
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+nothign more than the future values!
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}e^{rT}-\sum_{i=1}^{n}d_{i}e^{r(T-t_{i})}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For a financial asset with a continuous 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{dividend yield}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\delta>0$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}e^{(r-\delta)T}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This latter formula is commonly used to price index forwards.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Roadmap: the forward price with frictions
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Dividends.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+2.
+\end_layout
+
+\end_inset
+
+ 
+\series bold
+Commodity storage and convenience.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Limits to arbitrage.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Theory of commodity storage
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Commodity storage costs
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Commodities are costly to store (e.g., grain silos), if at all.
 \end_layout
 
 \begin_layout Itemize
@@ -874,10 +1783,22 @@ status open
 
 \begin_layout Itemize
 Let 
-\begin_inset Formula $V_{T}$
+\begin_inset Formula $c>0$
 \end_inset
 
- denote the payoff of the portfolio in the future.
+ be the storage cost for date 
+\begin_inset Formula $0$
+\end_inset
+
+ to 
+\begin_inset Formula $T$
+\end_inset
+
+, paid at 
+\begin_inset Formula $T$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -894,11 +1815,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Suppose that 
-\begin_inset Formula $V_{T}$
-\end_inset
-
- is known today – i.e., no uncertainty.
+Will the storage cost increase or decrease the forward price?
 \end_layout
 
 \begin_layout Itemize
@@ -915,11 +1832,710 @@ status open
 \end_layout
 
 \begin_layout Itemize
-When is the portfolio 
-\begin_inset Formula $V$
+Think about the forward price decomposition: 
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}+\text{cost of carry}.
+\]
+
 \end_inset
 
- an arbitrage?
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Not-so replicating portfolio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Storage costs do not affect the payoff to a long forward:
+\begin_inset Formula 
+\[
+X_{T}=S_{T}-F_{0,T}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Commodity payoff now includes storage cost:
+\begin_inset Formula 
+\[
+S_{T}-c.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Leveraged commodity portfolio no longer replicates forward:
+\begin_inset Formula 
+\[
+\left(S_{T}-c\right)-F_{0,T}<S_{T}-F_{0,T}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Upward adjusted replicating portfolio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Form the following portfolio at date 
+\begin_inset Formula $0$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ Long one unit of the commodity.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Short a risk-free bond with face-value 
+\begin_inset Formula $F_{0,T}-c$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The payoff to this portfolio at date 
+\begin_inset Formula $T$
+\end_inset
+
+ is: 
+\begin_inset Formula 
+\[
+\begin{aligned}Y_{T} & =\left(S_{T}-c\right)-\left(F_{0,T}-c\right)\\
+ & =S_{T}-F_{0,T}.
+\end{aligned}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is the same payoff as the long forward!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The forward price with storage costs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Apply LoP: value of forward today=value of replicating portfolio.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Value of forward today is zero by construction:
+\begin_inset Formula 
+\[
+X_{0}=0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Value of long commodity, short bond portfolio today is: 
+\begin_inset Formula 
+\[
+Y_{0}=S_{0}-\left(F_{0,T}-c\right)e^{-rT}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equating 
+\begin_inset Formula $X_{0}=Y_{0}$
+\end_inset
+
+ and solving for the forward price yields: 
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}e^{rT}+c.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The price of AAPL stock is 
+\begin_inset Formula $\$300$
+\end_inset
+
+ per share.
+ Apple has comitted with certainty to make a 
+\begin_inset Formula $\$5$
+\end_inset
+
+ divided payment per share in 6 months.
+ The c.c.
+ risk-free rate is one percent.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ What is the six-month forward price of AAPL stock?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ Is there an arbitrage if 
+\begin_inset Formula $F_{0,0.5}=\$310$
+\end_inset
+
+? If so, construct a portfolio to capitalize upon it.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Is there an arbitrage if 
+\begin_inset Formula $F_{0,0.5}=\$290$
+\end_inset
+
+? If so, construct a portfolio to capitalize upon it.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cost of carry with storage costs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The asset holder pays storage cost while the forward does not.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus, forward must provide price compensation for deferring.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Another way to say this is storage costs increase cost of carry:
+\begin_inset Formula 
+\[
+\text{cost of carry}=S_{0}\left(e^{rT}-1\right)+c.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Forward curve is upward sloping based on this formula.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gold forward curve (01/13/20)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/gold_1.PNG
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Notice the upward slope.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Wall Street Journal (01/13/20)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/gold_1.PNG
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Notice the upward slope.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
