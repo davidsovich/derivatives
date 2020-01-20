@@ -1376,6 +1376,13 @@ Goldman paid
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Derivatives
 \end_layout
@@ -3179,7 +3186,7 @@ The AIG bailout
 \begin_layout Itemize
 Instead of letting AIG fail, the Fed and Treasury bailed it out.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Fed lent AIG $85 billion against insurance assets.
@@ -3206,8 +3213,8 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Taxpayers were not happy about this.
- So why do it?
+Taxpayers were not happy.
+ So why did we do it?
 \end_layout
 
 \begin_layout Itemize
@@ -3224,11 +3231,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Rationale was AIG's
-\end_layout
-
-\begin_layout Itemize
-Lack of assets caused lenders to cut-off credit to AIG.
+AIG's failure likely would have caused its counterparties to fail.
 \end_layout
 
 \begin_layout Itemize
@@ -3245,141 +3248,15 @@ status open
 \end_layout
 
 \begin_layout Itemize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypertarget{aig}{}
-\end_layout
-
+No financial sector 
+\begin_inset Formula $=$
 \end_inset
 
-And so on...until AIG was on the verge of 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperlink{aig_price}{insolvency}
-\end_layout
-
+ no lending 
+\begin_inset Formula $=$
 \end_inset
 
-.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Was AIG a bad actor?
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-AIG received a massive bailout from taxpayers:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- Fed loaned AIG $85 billion against insurance assets.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-–
-\end_layout
-
-\end_inset
-
- U.S.
- government injected $185 billion equity.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Public was not happy, but it was necessary to avert disaster.
+ Great Depression 2.0.
 \end_layout
 
 \begin_layout Itemize
@@ -3493,6 +3370,468 @@ status open
 
 \begin_layout Itemize
 Be careful with derivatives: even hedges can be risky!
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Worst trades list: https://en.wikipedia.org/wiki/List_of_trading_losses
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bonus: top ten worst trades
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arraystretch}{1.4}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[htdp]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{cccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+Rank 		&	Trader 				& Position 					&	Year 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+1	& 	Bruno Iksil				& Credit default swaps   	& 2012 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+2	&	 Howie Hubler			& Credit default swaps 		&	2008 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+3 	&	Jerome Kerviel 			& European index futures				& 2008 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4	&	Brian Hunter			& Gas futures 		& 2006			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+5	&	LTCM			& Convergence trades	& 1998			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+6	&	Bill Ackman					& Long Valeant Pharma					& 2015-2017 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+7	&	Sumitomo Corp					& Copper futures					& 1996			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+8	&	Aracruz				& FX options 			& 2008			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+9	& 	Orange County					& Leverage bonds		&	1994 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+10 	& 	Metallegesellschaft				& Oil futures		& 1993 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+At least half are derivatives trades
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arraystretch}{1.4}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[htdp]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{cccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+Rank 		&	Trader 				& Position 					&	Year 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+1	& 	John Paulson				& 
+\backslash
+textbf{Against subprime}   	& 2008 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+2	&	 Jesse Livermore			& Against US equity 		&	1929 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+3 	&	John Templeton  			& Long Japan				& 1960s--1990s 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4	&	George Soros 			& 
+\backslash
+textbf{Against UK pound}  		& 1992			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+5	&	Paul Tudor Jones			& Short Black Monday 		& 1987			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+6	&	Andrew Hall					& 
+\backslash
+textbf{Long oil} 					& 2003 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+7	&	David Tepper				& Long financials 			& 2009			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+8	& 	Jim Chanos					& Short Enron 		&	2001 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+9 	& 	Jim Rogers 				& 
+\backslash
+textbf{Long commodities} 		& 1990s-- 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+10	&	Louis Bacon 				& 
+\backslash
+textbf{Long oil}, short equity	& 1990  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper

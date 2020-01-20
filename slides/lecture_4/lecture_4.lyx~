@@ -2167,18 +2167,23 @@ status open
 
 \end_inset
 
- The price of AAPL stock is 
-\begin_inset Formula $\$300$
+ The price of gold is 
+\begin_inset Formula $\$1,500$
 \end_inset
 
- per share.
- Apple has comitted with certainty to make a 
-\begin_inset Formula $\$5$
+ per ounce.
+ For safety, gold must be stored in Fort Knox at a cost of 
+\begin_inset Formula $\$45$
 \end_inset
 
- divided payment per share in 6 months.
+ per ounce per year.
  The c.c.
- risk-free rate is one percent.
+ risk-free rate is five percent and the expected future spot price in four
+ years is 
+\begin_inset Formula $\$1,550.$
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2205,7 +2210,33 @@ status open
 
 \end_inset
 
- What is the six-month forward price of AAPL stock?
+ What is the four-year forward price of gold?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ What is the cost of carry for a long gold position?
 \end_layout
 
 \begin_layout Itemize
@@ -2232,7 +2263,7 @@ status open
 \end_inset
 
  Is there an arbitrage if 
-\begin_inset Formula $F_{0,0.5}=\$310$
+\begin_inset Formula $F_{0,4}=\$1,550$
 \end_inset
 
 ? If so, construct a portfolio to capitalize upon it.
@@ -2262,7 +2293,7 @@ status open
 \end_inset
 
  Is there an arbitrage if 
-\begin_inset Formula $F_{0,0.5}=\$290$
+\begin_inset Formula $F_{0,4}=\$2,000$
 \end_inset
 
 ? If so, construct a portfolio to capitalize upon it.
@@ -2270,6 +2301,33 @@ status open
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -2492,7 +2550,7 @@ Notice the upward slope.
 status open
 
 \begin_layout Plain Layout
-A portfolio with no uncertainty
+People actually perform this arbitrage in real-life
 \end_layout
 
 \end_inset
@@ -2507,74 +2565,33 @@ A portfolio with no uncertainty
 \begin_deeper
 \begin_layout Standard
 \align center
-\begin_inset ERT
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "The Wall Street Journal, “Oil Stockpile on Ship Shrinks”"
+target "https://www.wsj.com/articles/SB10001424052748703762504575036960795631300"
+literal "false"
+
+\end_inset
+
+
+\emph default
+
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_4/wsj.PNG
+	scale 47.5
+
+\end_inset
 
 
-\backslash
-psset{unit=.6mm} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-color{black} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{pspicture}(-20,-50)(140,70)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-psline[linewidth=2pt,linecolor=blue](10,0)(110,0)
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(10,50){ 
-\backslash
-underline{today} }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(110,50){ 
-\backslash
-underline{the future} }  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(0,0){ $V_t$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-rput(120,0){ $V_T$ }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{pspicture}
 \end_layout
 
 \end_inset
@@ -2602,7 +2619,7 @@ end{pspicture}
 status open
 
 \begin_layout Plain Layout
-Arbitrage with no uncertainty
+General formulas for storage
 \end_layout
 
 \end_inset
@@ -2612,11 +2629,116 @@ Arbitrage with no uncertainty
 
 \begin_deeper
 \begin_layout Itemize
-With no uncertainty, 
-\begin_inset Formula $V$
+For storage costs 
+\begin_inset Formula $\{c_{1},c_{2},...,c_{n}\}$
 \end_inset
 
- is an arbitrage if either:
+ at dates 
+\begin_inset Formula $\{t_{1},t_{2},...,t_{n}\}$
+\end_inset
+
+ such that 
+\begin_inset Formula $0\leq t_{1}\leq...\leq t_{n}\leq T$
+\end_inset
+
+, the no-arbitrage forward price is:
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+nothign more than the future values!
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}e^{rT}+\sum_{i=1}^{n}c_{i}e^{r(T-t_{i})}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For a commodity with a continuous storage cost 
+\begin_inset Formula $\gamma>0$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}e^{(r+\gamma)T}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+An arbitrage opportunity?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It seems storable commodities should always be in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{contango}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_deeper
@@ -2633,6 +2755,559 @@ status open
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ Contango means an upward-sloping forward curve.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+But commodities sometimes display 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{backwardation}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{seasonality}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+–
+\end_layout
+
+\end_inset
+
+ Backwardation means a downward-sloping forward curve.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hedging pressure theory of Keynes: producers must give concessions to entice
+ long parties to enter the forward and hedge their risks.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Does this imply that arbitrage opportunities are plentiful?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Sumitomo copper affair! (circa 1990 / 1995)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/natgas_1.PNG
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The Sumitomo copper affair!.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Natural gas forward curve (01/13/20)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/bloomberg/natgas_1.PNG
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Notice the upward slope.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The convenience yield
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Commodities sometimes yield non-monetary benefits to holders.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Ex:
+\emph default
+ Hershey needs cocoa inventory to produce chocolate.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{kblue}{convenience yield}
+\end_layout
+
+\end_inset
+
+ is the non-monetary benefit of ownership.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Convenience yields push down forward prices (like dividends).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Forward pricing with storage and convenience
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let 
+\begin_inset Formula $y>0$
+\end_inset
+
+ be the convenience yield for a commodity.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The no-arbitrage forward price is given by:
+\begin_inset Formula 
+\[
+F_{0,T}=S_{0}e^{(r+c-y)T}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The forward curve will be in contango (backwardation) whenever storage costs
+ and interest are > (<) the convenience yield..
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The spot price for cocoa is 
+\begin_inset Formula $\$2,000$
+\end_inset
+
+ per ton.
+ The c.c.
+ risk-free rate is one percent and the c.c.
+ storage cost is two percent.
+ The six-month futures price of cocoa is 
+\begin_inset Formula $\$1,900$
+\end_inset
+
+ per ton.
+ What is the convenience yield for cocoa over this six month period?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Roadmap: the forward price with frictions
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 \begin_inset Argument item:1
 status open
@@ -2643,25 +3318,7 @@ status open
 
 \end_inset
 
- 
-\begin_inset Formula $V_{t}=0$
-\end_inset
-
- and 
-\begin_inset Formula $V_{T}>0$
-\end_inset
-
- or
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Explain how they should exploit it here.
-\end_layout
-
-\end_inset
-
-
+ Dividends.
 \end_layout
 
 \begin_layout Itemize
@@ -2687,76 +3344,37 @@ status open
 
 \end_inset
 
+ Commodity storage and convenience.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+3.
+\end_layout
+
+\end_inset
+
  
-\begin_inset Formula $V_{t}<0$
-\end_inset
-
- and 
-\begin_inset Formula $V_{T}\geq0$
-\end_inset
-
-.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Explain how they should exploit it here.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The first is 
-\begin_inset Quotes eld
-\end_inset
-
-get something for paying nothing
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The second is 
-\begin_inset Quotes eld
-\end_inset
-
-get paid to potentially get something
-\begin_inset Quotes erd
-\end_inset
-
-.
+\series bold
+Limits to arbitrage.
 \end_layout
 
 \end_deeper
@@ -2774,102 +3392,8 @@ get paid to potentially get something
 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #1
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- Consider two securities 
-\begin_inset Formula $X$
-\end_inset
-
- and 
-\begin_inset Formula $Y$
-\end_inset
-
-.
- Security 
-\begin_inset Formula $X$
-\end_inset
-
- has a price of 
-\begin_inset Formula $X_{t}=1$
-\end_inset
-
- and a certain payoff of 
-\begin_inset Formula $X_{T}=3$
-\end_inset
-
-.
- Security 
-\begin_inset Formula $Y$
-\end_inset
-
- has a price of 
-\begin_inset Formula $Y_{t}=1$
-\end_inset
-
- and a certain payoff of 
-\begin_inset Formula $Y_{T}=2$
-\end_inset
-
-.
- Is there an arbitrage? If so, construct a portfolio to capitalize upon
- the arbitrage.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Practice problem #1 solutions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
+\begin_layout Subsection
+Limits to arbitrage.
 \end_layout
 
 \begin_layout Standard
@@ -6092,6 +6616,39 @@ Date
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A final note on commodity forward pricing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+FILL IN HERE FROM GOODNOTES SHEET.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 References
 \end_layout
@@ -6118,7 +6675,7 @@ References
 
 \begin_deeper
 \begin_layout Itemize
-Textbook chapters XXX, XXX, and XXX.
+Textbook chapters 5.2, 5.3, 6.1, 6.3, 6.4, and 6.6.
 \end_layout
 
 \begin_layout Itemize

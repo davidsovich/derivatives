@@ -1376,6 +1376,13 @@ Goldman paid
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Derivatives
 \end_layout
@@ -3363,6 +3370,474 @@ status open
 
 \begin_layout Itemize
 Be careful with derivatives: even hedges can be risky!
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Worst trades list: https://en.wikipedia.org/wiki/List_of_trading_losses
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bonus: top ten worst trades
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arraystretch}{1.4}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[htdp]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{cccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+Rank 		&	Trader 				& Position 					&	Year 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+1	& 	Bruno Iksil				& Credit default swaps   	& 2012 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+2	&	 Howie Hubler			& Credit default swaps 		&	2008 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+3 	&	Jerome Kerviel 			& European index futures				& 2008 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4	&	Brian Hunter			& Gas futures 		& 2006			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+5	&	LTCM			& Convergence trades	& 1998			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+6	&	Bill Ackman					& Long Valeant Pharma					& 2015-2017 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+7	&	Sumitomo Corp					& Copper futures					& 1996			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+8	&	Aracruz				& FX options 			& 2008			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+9	& 	Orange County					& Leveraged bonds		&	1994 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+10 	& 	Metallegesellschaft				& Oil futures		& 1993 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Almost all are derivatives trades
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arraystretch}{1.4}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[htdp]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{cccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+Rank 		&	Trader 				& Position 					&	Year 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+1	& 	Bruno Iksil				& 
+\backslash
+textbf{Credit default swaps}   	& 2012 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+2	&	 Howie Hubler			& 
+\backslash
+textbf{Credit default swaps} 		&	2008 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+3 	&	Jerome Kerviel 			& 
+\backslash
+textbf{European index futures}				& 2008 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4	&	Brian Hunter			& 
+\backslash
+textbf{Gas futures} 		& 2006			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+5	&	LTCM			& 
+\backslash
+textbf{Convergence trades}	& 1998			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+6	&	Bill Ackman					& Long Valeant Pharma					& 2015-2017 			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+7	&	Sumitomo Corp					& 
+\backslash
+textbf{Copper futures}					& 1996			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+8	&	Aracruz				& 
+\backslash
+textbf{FX options} 			& 2008			
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+9	& 	Orange County					& Leveraged bonds		&	1994 		
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+10 	& 	Metallegesellschaft				& 
+\backslash
+textbf{Oil futures}		& 1993 	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
