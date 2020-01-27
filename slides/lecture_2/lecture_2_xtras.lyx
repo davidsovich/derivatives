@@ -1,0 +1,773 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+%\usetheme{Boadilla}
+%\usetheme{Darmstadt}
+%\usetheme{Frankfurt}
+\usetheme{boxes}
+%\usetheme{boxes}
+%\usetheme{Hannover}
+% or ...
+%\useoutertheme[subsection=false]{miniframes}
+%\usecolortheme{dove}
+%\usecolortheme{default}
+%\usecolortheme{boxes}
+\setbeamertemplate{footline}[text line]{} % makes the footer EMPTY
+
+\definecolor{kblue}{RGB}{0,51,160}
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+%gets rid of bottom navigation bars
+\setbeamertemplate{footline}[frame number]{}
+
+%gets rid of bottom navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+%gets rid of footer
+%will override 'frame number' instruction above
+%comment out to revert to previous/default definitions
+\setbeamertemplate{footline}{}
+
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{bbm}
+
+\usepackage{pst-plot} 
+%\usepackage{pst-tree}
+\usepackage{pstricks}
+\usepackage{pst-3d}
+\usepackage{pstricks, egameps, sgamevar}
+\usepackage{pst-3d}
+%\usepackage{pst-pdf}
+
+%\usefonttheme{serif}
+
+\setbeamersize{text margin left=5mm,text margin right=10mm} 
+
+\setbeamertemplate{itemize/enumerate body begin}{\normalsize}
+\setbeamertemplate{itemize/enumerate subbody begin}{\normalsize}
+\setbeamertemplate{itemize/enumerate subsubbody begin}{\normalsize}
+
+\setbeamercolor{frametitle}{fg=kblue}
+\setbeamercolor{item}{fg=kblue}
+%\setbeamercolor{normal text}{fg=RoyalBlue}
+\setbeamercolor{title}{fg=kblue}
+
+%RoyalBlue
+
+%\addtobeamertemplate{navigation symbols}{}{%
+%    \usebeamerfont{footline}%
+%    \usebeamercolor[fg]{footline}%
+%    \hspace{1em}%
+%    \insertframenumber/\inserttotalframenumber
+%}
+\end_preamble
+\options xcolor=dvipsnames
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "lmss" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, urlcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\size largest
+Lecture 2 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+ Extra questions
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/template/uk_logo2.jpg
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+David Sovich
+\end_layout
+
+\begin_layout Standard
+\align center
+University of Kentucky
+\end_layout
+
+\begin_layout Standard
+\align center
+Spring 2020
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+NOTE: TO GENERATE GRAPHS MUST VIEW WITH PS2PDF (FOUR PLACES TO RIGHT OF
+ NORMAL VIEW BUTTON).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Suppose you enter into a long ten-year forward position.
+ In ten years, the spot price is 
+\begin_inset Formula $\$200$
+\end_inset
+
+ and your payoff is 
+\begin_inset Formula $\$100$
+\end_inset
+
+.
+ At what forward price did you enter the contract?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+You own one share of the S&P 500 index.
+ Today's spot price of the S&P 500 is 
+\begin_inset Formula $S_{0}=\$3,300$
+\end_inset
+
+ per share.
+ In one year, the economy can be in one of two states: good (
+\begin_inset Formula $g$
+\end_inset
+
+) or bad (
+\series bold
+
+\begin_inset Formula $b$
+\end_inset
+
+
+\series default
+).
+ If the good state occurs, the price of the S&P 500 index will be 
+\begin_inset Formula $\$4,000$
+\end_inset
+
+.
+ If the bad state occurs, the price will be 
+\begin_inset Formula $\$3,000$
+\end_inset
+
+.
+ The probability of the good state is 
+\begin_inset Formula $\Pr(g)=0.5$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ What is the expected price of the S&P 500 in one year? What is the variance?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+
+ The one-year forward price for the S&P 500 is 
+\begin_inset Formula $\$3,400$
+\end_inset
+
+.
+ What is the payoff to a short forward in the good state? The bad state?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
+ Suppose you hedge your position in the S&P 500 by selling a forward.
+ What is your expected payoff on your portfolio? What is the variance?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #1 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
+ The payoff to the long party is:
+\begin_inset Formula 
+\[
+\begin{aligned}X_{1} & =S_{1}-F_{0,1}\\
+ & =2,600-2,750\\
+ & =-150
+\end{aligned}
+\]
+
+\end_inset
+
+ The payoff to the short party is:
+\begin_inset Formula 
+\[
+\begin{aligned}-X_{1} & =F_{0,1}-S_{1}\\
+ & =150
+\end{aligned}
+\]
+
+\end_inset
+
+ No money is exchanged hands on the origination date.
+\end_layout
+
+\end_deeper
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem #1 solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
+The minimum payoff to the long party is 
+\begin_inset Formula $0-F_{0,1}=-2,750.$
+\end_inset
+
+ If 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ is unbounded above, the maximum payoff is 
+\begin_inset Formula $+\infty$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/dso245/Dropbox/Teaching/derivatives/figures/lecture_2/pp1a.pdf
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Plain Layout
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Practice problem scratch paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

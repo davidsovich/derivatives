@@ -712,8 +712,19 @@ status open
 
 \end_inset
 
- Costs nothing today, never yields negative cash flows, and sometimes yields
+ Costs nothing today, never has a negative payoff, and sometimes has a positive
+ payoff.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Costs nothing today, never yields negative cash flows, and sometimes yields
  positive cash flows.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -739,8 +750,18 @@ status open
 
 \end_inset
 
- Costs a negative amount today (you get paid to buy it) and never yields
+ Costs a negative amount today (you get paid) and never has a negative payoff.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Costs a negative amount today (you get paid to buy it) and never yields
  negative cash flows.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1078,21 +1099,21 @@ Explain how they should exploit it here.
 \end_inset
 
 
-\end_layout
+\begin_inset Note Note
+status collapsed
 
-\end_deeper
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
+The first case is 
+\begin_inset Quotes eld
 \end_inset
 
+get something for paying nothing
+\begin_inset Quotes erd
+\end_inset
 
-\end_layout
+.
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Itemize
 The first case is 
@@ -1106,18 +1127,19 @@ get something for paying nothing
 .
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
+The second case is 
+\begin_inset Quotes eld
+\end_inset
 
-\end_layout
+get paid to potentially get something
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Note Note
+status open
 
 \begin_layout Itemize
 The second case is 
@@ -1131,6 +1153,17 @@ get paid to potentially get something
 .
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -1205,8 +1238,7 @@ status open
 \end_inset
 
 .
- Is there an arbitrage? If so, construct a portfolio to capitalize upon
- it.
+ Is there an arbitrage?
 \end_layout
 
 \end_deeper
@@ -1805,8 +1837,7 @@ Consider two securities:
 \end_inset
 
 .
- Is there an arbitrage? If so, construct a portfolio to capitalize upon
- it.
+ Is there an arbitrage?
 \end_layout
 
 \end_deeper
@@ -2036,23 +2067,16 @@ textcolor{kblue}{Arbitrageurs}
 \end_inset
 
  buy low and sell high.
-\end_layout
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
+Demand will be infinite; markets will not clear.
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-Demand will be infinite; markets will not clear.
 \end_layout
 
 \begin_layout Itemize
@@ -2127,15 +2151,17 @@ textcolor{kblue}{law of one price (LoP)}
 
 \end_inset
 
- states that portfolios with the same 
-\bar under
-payoffs (or terminal values) 
-\bar default
-must have the same 
-\bar under
-price
-\bar default
-.
+ states that portfolios with the same payoffs must have the same price.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+payoffs (or terminal values)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -2152,7 +2178,17 @@ status open
 \end_layout
 
 \begin_layout Itemize
-The LoP is directly implied by no-arbitrage.
+If the LoP does not hold, then there is an arbitrage.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+The LoP is implied by no-arbitrage.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -2169,8 +2205,18 @@ status open
 \end_layout
 
 \begin_layout Itemize
+The LoP is the key concept underlying derivatives pricing.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 The LoP is the fundamental concept behind all derivatives pricing.
  We will use it to derive forward and options prices.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -4689,10 +4735,6 @@ Practice problem scratch paper
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
 
@@ -4997,24 +5039,7 @@ References
 
 \begin_deeper
 \begin_layout Itemize
-Textbook chapters 2.1, 4.1, 4.2, and appendix B.2.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Textbook chapters 2.1, 4.1, 4.2, and appendix B.2.
+Textbook chapters 5.1, 5.2, and 5.3.
 \end_layout
 
 \begin_layout Itemize
